@@ -1,18 +1,10 @@
-<p align="center">
-    # My Personal Website -  
-</p>
-
-<p align="center">This website is based on the minimalist <a href="https://github.com/sergiokopplin/indigo">Indigo theme</a> for Jekyll by <a href="https://github.com/sergiokopplin">Kopplin</a>
-</p>
+# My Personal Website - [http://www.pierreaumjaud.com/](http://www.pierreaumjaud.com/)
 
 
+This website is based on the minimalist [Indigo theme](https://github.com/sergiokopplin/indigo) for Jekyll by [Kopplin](https://github.com/sergiokopplin)</a>
 
+![Screenshot](/assets/images/screen-shot.jpg)
 
-<p align="center">
-    <!-- <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" /> -->
-    <!-- <img src="assets/images/screen-shot.jpg" /> -->
-    ![Screenshot](http://PierreExeter.github.io/assets/images/screen-shot.jpg)
-</p>
 
 
 ***
