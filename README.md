@@ -17,7 +17,8 @@
 </p>
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+    <!-- <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" /> -->
+    <img src="assets/images/screen-shot.jpg" />
 </p>
 
 ## What has inside
