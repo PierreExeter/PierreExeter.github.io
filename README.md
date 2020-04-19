@@ -1,6 +1,6 @@
 # My Personal Website
 
-[http://www.pierreaumjaud.com/](http://www.pierreaumjaud.com/)
+[https://www.pierreaumjaud.com/](https://www.pierreaumjaud.com/)
 
 
 This website is based on the minimalist [Indigo theme](https://github.com/sergiokopplin/indigo) for Jekyll by [Kopplin](https://github.com/sergiokopplin)</a>
