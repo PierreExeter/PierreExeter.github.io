@@ -1,5 +1,5 @@
 ---
-title: "Data Machinisit"
+title: "Data Machinist"
 layout: post
 date: 2020-04-19 15:02
 image: /assets/images/markdown.jpg
