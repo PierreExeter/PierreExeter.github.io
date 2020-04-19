@@ -74,5 +74,5 @@ Welcome to my website! I am Pierre Aumjaud, a postdoctoral research fellow based
 
 <ul>
 	<li><a href="https://github.com/PierreExeter/jaco-gym">Jaco-gym - An OpenAI Gym environment for the Jaco robotic arm for reinforcement learning</a></li>
-	<li><a href="https://github.com/PierreExeter/data_science">Data science scripts for Kaggle</a></li>
+	<li><a href="https://github.com/PierreExeter/data_science">Data science scripts for Kaggle competitions</a></li>
 </ul>
