@@ -2,7 +2,7 @@
 title: "Data Machinist"
 layout: post
 date: 2020-05-24 15:02
-image: /assets/images/datamachinist.jpg
+image: /assets/images/datamachinist.png
 headerImage: true
 tag:
 - Cheat sheets
