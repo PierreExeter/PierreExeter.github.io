@@ -43,8 +43,8 @@ Welcome to my website! I am Pierre Aumjaud, a postdoctoral research fellow based
 
 <ul class="skill-list">
 	<li>Git</li>
-	<li>Linux - Windows</li>
-	<li>LaTeX - Microsoft Office</li>
+	<li>Linux, Windows</li>
+	<li>LaTeX, Microsoft Office</li>
 </ul>
 
 
@@ -75,4 +75,14 @@ Welcome to my website! I am Pierre Aumjaud, a postdoctoral research fellow based
 <ul>
 	<li><a href="https://github.com/PierreExeter/jaco-gym">Jaco-gym - An OpenAI Gym environment for the Jaco robotic arm for reinforcement learning</a></li>
 	<li><a href="https://github.com/PierreExeter/data_science">Data science scripts for Kaggle competitions</a></li>
+</ul>
+
+<h2>Social Media</h2>
+
+
+<ul>
+	<li><a href="https://www.linkedin.com/in/pierreaumjaud/">LinkedIn</a></li>
+	<li><a href="https://github.com/PierreExeter">GitHub</a></li>
+	<li><a href="https://www.researchgate.net/profile/Pierre_Aumjaud">ResearchGate</a></li>
+	<li><a href="https://orcid.org/0000-0002-9939-5537">Orcid</a></li>
 </ul>
