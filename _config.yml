@@ -10,6 +10,10 @@ description: Pierre Aumjaud - Personal Website
 external-image: false
 picture: assets/images/profile.jpg
 
+# your site color theme, true for dark theme, 
+# false to light theme, auto to switch with system.
+dark-theme: auto
+
 # If you want to include your resume, set to true
 # and specify source (external or local).
 resume: true
@@ -19,7 +23,7 @@ resume-url: assets/CV_aumjaud.pdf  # https://google.com/?q=my+resume
 url: https://www.pierreaumjaud.com/
 # your url: https://USERNAME.github.io
 
-permalink: /:year/:month/:day/:title/
+permalink: /:title/
 
 # To enable google analytics, supply your token below
 analytics-google: 'G-R913FFRVR2'  # OLD: universal analytics token: 'UA-65888106-1'
@@ -59,7 +63,6 @@ authors:
     external-image: false
     picture: assets/images/profile.jpg
     # twitter: johndoe
-
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -114,11 +117,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-  - jekyll-admin
   - jekyll-paginate-v2
-
-jekyll-mentions:
-  base_url: https://github.com
 
 compress_html:
   ignore:
@@ -128,11 +127,9 @@ compress_html:
 
 exclude:
   [
-    "travis.sh",
     "README.md",
     "Gemfile",
     "Gemfile.lock",
     "FAQ.md",
-    "node_modules",
     "vendor",
   ]

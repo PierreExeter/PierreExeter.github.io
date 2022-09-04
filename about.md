@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
 <p style="text-align: justify">
-Welcome to my website! I am Pierre Aumjaud, a postdoctoral research fellow based at Univeristy College Dublin. I specialise in applying machine learning methods to engineering problems. My research interests include reinforcement learning for robotics, anomaly detection for manufacturing processes, data analytics and optimisation methods for numerical simulations. I also maintain an educational blog on machine learning - <a href="https://www.datamachinist.com/">www.datamachinist.com</a>.
+Welcome to my website! I am Pierre Aumjaud, a postdoctoral research fellow based at Univeristy College Dublin. I specialise in applying machine learning methods to engineering problems. My research interests include reinforcement learning for robotics, anomaly detection for manufacturing processes, data analytics and optimisation methods for numerical simulations. I also maintain an educational blog on machine learning -- <a href="http://datasparked.com/">datasparked.com</a>.
 </p>
 
 
@@ -35,7 +35,7 @@ Welcome to my website! I am Pierre Aumjaud, a postdoctoral research fellow based
 <ul class="skill-list">
 	<li>HTML / CSS</li>
 	<li>PHP / SQL</li>
-	<li>Wordpress - Jekyll</li>
+	<li>Wordpress, Jekyll</li>
 </ul>
 
 <h2>Other computer skills</h2>
@@ -53,7 +53,7 @@ Welcome to my website! I am Pierre Aumjaud, a postdoctoral research fellow based
 <ul class="skill-list">
 	<li>English - Full proficiency</li>
 	<li>French - Native speaker</li>
-	<li>Spanish - Conversational</li>
+	<li>Spanish - Professional proficiency</li>
 </ul>
 
 
