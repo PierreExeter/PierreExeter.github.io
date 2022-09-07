@@ -13,38 +13,53 @@ Welcome to my website! I am Pierre Aumjaud, a postdoctoral research fellow based
 <h2>Programming Languages</h2>
 
 <ul class="skill-list">
-	<li>Python</li>
+	<li>Python (8 years)</li>
 	<li>Matlab</li>
 	<li>C/C++</li>
 </ul>
 
 
-<h2>Machine Learning</h2>
+<h2>Machine Learning Libraries</h2>
 
 <ul class="skill-list">
 	<li>Pandas</li>
+	<li>Numpy</li>
 	<li>Scikit-Learn</li>
-	<li>TensorFlow - Keras</li>
+	<li>Jupyter</li>
 	<li>Pytorch</li>
-	<li>Reinforcement learning - OpenAI Gym - Stable-baselines</li>
+	<li>Gym</li>
+	<li>Stable Baselines 3</li>
 </ul>
 
 
-<h2>Web Design</h2>
+<h2>Software Development</h2>
+
+<ul class="skill-list">
+	<li>Git</li>
+	<li>Pytest</li>
+	<li>Travis CI</li>
+	<li>Docker</li>
+	<li>Anaconda</li>
+</ul>
+
+
+<h2>Web Development</h2>
 
 <ul class="skill-list">
 	<li>HTML / CSS</li>
 	<li>PHP / SQL</li>
-	<li>Wordpress, Jekyll</li>
+	<li>Wordpress</li>
+	<li>Jekyll</li>
 </ul>
 
 <h2>Other computer skills</h2>
 
 
 <ul class="skill-list">
-	<li>Git</li>
-	<li>Linux, Windows</li>
-	<li>LaTeX, Microsoft Office</li>
+	<li>Linux / Bash</li>
+	<li>LaTeX</li>
+	<li>Markdown</li>
+	<li>Microsoft Office</li>
 </ul>
 
 
@@ -60,29 +75,20 @@ Welcome to my website! I am Pierre Aumjaud, a postdoctoral research fellow based
 <h2>Hobbies</h2>
 
 <ul class="skill-list">
-	<li>Badminton</li>
-	<li>Guitar</li>
-	<li>Travelling</li>
-	<li>Outdoors</li>
-	<li>Geocaching</li>
-	<li>Robotics (Raspberry Pi and Arduino)</li>
-	<li>Data science competitions (Kaggle)</li>
+	<li>Outdoors: trekking, geocaching, permaculture</li>
+	<li>Sport: badminton, yoga </li>
+	<li>Music: Guitar</li>
+	<li>Technology: Electronics (Raspberry Pi & Arduino), Kaggle competitions</li>
 </ul>
 
 
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/PierreExeter/jaco-gym">Jaco-gym - An OpenAI Gym environment for the Jaco robotic arm for reinforcement learning</a></li>
-	<li><a href="https://github.com/PierreExeter/data_science">Data science scripts for Kaggle competitions</a></li>
-</ul>
-
-<h2>Social Media</h2>
-
+<h2>Social Network</h2>
 
 <ul>
 	<li><a href="https://www.linkedin.com/in/pierreaumjaud/">LinkedIn</a></li>
 	<li><a href="https://github.com/PierreExeter">GitHub</a></li>
 	<li><a href="https://www.researchgate.net/profile/Pierre_Aumjaud">ResearchGate</a></li>
 	<li><a href="https://orcid.org/0000-0002-9939-5537">Orcid</a></li>
+	<li><a href="https://scholar.google.com/citations?user=cWpc7XYAAAAJ&hl=en">Google Scholar</a></li>
+
 </ul>
