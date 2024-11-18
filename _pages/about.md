@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research fellow at <a href="https://www.ucd.ie/">Univeristy College Dublin</a> | Machine Learning Researcher
+subtitle: Research fellow at <a href="https://www.ucd.ie/">University College Dublin</a> | Machine Learning Researcher
 
 profile:
   align: right

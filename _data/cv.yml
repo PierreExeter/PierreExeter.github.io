@@ -5,17 +5,16 @@
       institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
       year: 2017 - 2021
       description: 
-        - machine learning
+        - supervised learning
         - reinforcement learning
-        - time series
+        - time series analysis
         - anomaly detection
         - robotics
     - title: Postdoctoral Research Fellow
       institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
       year: 2016 - 2017
       description:
-        - evolutionary optimisation
-        - topology optimisation
+        - evolutionary and topology optimisation
         - finite element analysis
         - composite materials
     - title: Teaching Assistant
@@ -40,7 +39,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD in Engineering
+    - title: PhD in vibration mechanics and optimisation
       institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
       year: 2012 - 2016
       description:
@@ -138,6 +137,6 @@
 - title: Interests
   type: list
   contents:
-    - <u>Technology :</u> Electronics (Arduino, Raspberry Pi), Kaggle competitions, fine-tuning Large Language Model
-    - <u>Outdoors :</u> Trekking, slow travel, permaculture, Geocaching
-    - <u>Hobbies :</u> Badminton (15 years), Guitar (10 years), Yoga and meditation
+    - <u>Technology :</u> electronics (Arduino, Raspberry Pi), Kaggle competitions, fine-tuning Large Language Model
+    - <u>Outdoors :</u> trekking, slow travel, permaculture, Geocaching
+    - <u>Hobbies :</u> badminton (15 years), guitar (10 years), yoga and meditation
