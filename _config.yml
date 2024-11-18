@@ -267,6 +267,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-redirect-from  # added by Pierre
 
 # Sitemap settings
 defaults:
