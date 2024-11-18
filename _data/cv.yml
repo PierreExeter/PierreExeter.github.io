@@ -1,97 +1,143 @@
-- title: General Information
-  type: map
+- title: Work Experience
+  type: time_table
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - title: Marie Curie Research Fellow
+      institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
+      year: 2017 - 2021
+      description: 
+        - machine learning
+        - reinforcement learning
+        - time series
+        - anomaly detection
+        - robotics
+    - title: Postdoctoral Research Fellow
+      institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
+      year: 2016 - 2017
+      description:
+        - evolutionary optimisation
+        - topology optimisation
+        - finite element analysis
+        - composite materials
+    - title: Teaching Assistant
+      institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
+      year: 2012 - 2015
+      description: 
+        - solid mechanics
+        - computational engineering
+        - Computer-Aided Design (CAD).
+    - title: Research Assistant
+      institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
+      year: 2011 - 2012
+      description: 
+        - numerical simulation
+        - finite element analysis (Abaqus and Ansys Mechanical)
+    - title: Intern
+      institution: <a href="https://www.airbus.com/">Airbus, France</a>
+      year: 2011
+      description: 
+        - Project management
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Engineering
+      institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
+      year: 2012 - 2016
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - evolutionary optimisation
+        - exploratory data analysis
+        - data visualisation
+        - numerical modelling (finite element analysis)
+    - title: MSc Mechanical Engineering
+      institution: <a href="https://www.supmicrotech.fr/">École Nationale Supérieure de Mécanique et des Microtechniques (Supmicrotech), France</a>
+      year: 2009 - 2012
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+        - mechanical engineering
+        - computer science
+        - engineering mathematics
+        - electronics
+        - material science
+    - title: MSc Engineering System Management
+      institution: <a href="https://www.wales.ac.uk/">University of Wales, UK</a>
+      year: 2012 - 2012
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - managing projects and programmes
+        - system modelling
+        - supply chain management
+        - sustainable engineering
+    - title: French ‘classes préparatoires’ (BSc Engineering)
+      institution: <a href="https://francois-arago.mon-ent-occitanie.fr/l-offre-d-enseignement-superieur/les-cpge-scientifiques/la-prepa-arago/">Lycée Arago, France</a>
+      year: 2007 - 2009
       description:
-        - Description 1.
-        - Description 2.
+        - mathematics
+        - physics
+        - chemistry
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python
+        - Matlab
+    - title: Frameworks & Libraries
       items:
-        - Description 1.
-        - Description 2.
+        - Numpy
+        - Scikit-learn
+        - Pytorch
+        - Pandas
+        - Jupyter
+        - OpenAI Gymnasium
+        - Matplotlib
+        - ROS
+    - title: Software Development
+      items:
+        - Git / Github
+        - Pytest
+        - Travis CI
+        - Docker
+        - Anaconda
+        - VSCode
+    - title: Web Development
+      items:
+        - HTML/CSS
+        - Wordpress
+        - Jekyll
+    - title: Engineering
+      items:
+        - Finite Element Analysis (Abaqus, Ansys)
+        - Computer-Aided-Design (Solidworks, OnShape)
+    - title: Other
+      items:
+        - Linux / Bash
+        - Arduino
+        - Markdown
+        - Latex
 
-- title: Other Interests
+- title: Languages
+  type: map
+  contents:
+    - name: French
+      value: Native speaker
+    - name: English
+      value: Fluent
+    - name: Spanish
+      value: Proficient
+
+- title: Certificates
+  type: time_table
+  contents:
+    - year: 2020
+      items:
+        - <a href="https://www.coursera.org/specializations/reinforcement-learning">Reinforcement Learning Specialization</a>
+        - <a href="https://www.coursera.org/specializations/machine-learning-introduction">Machine Learning Specialization</a>
+    - year: 2018
+      items:
+        - <a href="https://www.udacity.com/course/intro-to-data-analysis--ud170">Introduction to Data Analysis</a>
+
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Technology :</u> Electronics (Arduino, Raspberry Pi), Kaggle competitions, fine-tuning Large Language Model
+    - <u>Outdoors :</u> Trekking, slow travel, permaculture, Geocaching
+    - <u>Hobbies :</u> Badminton (15 years), Guitar (10 years), Yoga and meditation
