@@ -85,7 +85,8 @@ jobs:
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
       - name: Install and Build 🔧
-        run: |
+        run: | # Pierre : added bundle install, to install new gems
+          bundle install
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
           bundle exec jekyll build
