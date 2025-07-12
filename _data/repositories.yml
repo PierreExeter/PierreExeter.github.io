@@ -1,12 +1,14 @@
 github_users:
-  - PierreExeter
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - PierreExeter/rl_reach
-  - PierreExeter/jaco-gym
-  - PierreExeter/simple_GA
-  - PierreExeter/cartpole3d_ros
-  - PierreExeter/custom_gym_envs
-  - PierreExeter/kaggle-house-prices
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
