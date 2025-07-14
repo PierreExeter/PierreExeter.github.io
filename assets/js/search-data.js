@@ -37,19 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/https:/www.datasparked.com/";
           },
-        },{id: "nav-trek-reports",
-          title: "trek reports",
-          description: "I&#39;m passionate about outdoors and trekking. Here are some memorable treks.",
+        },{id: "nav-outdoors",
+          title: "outdoors",
+          description: "Aside from work, I find fulfillment in outdoor adventures, international volunteering and personal development courses—experiences that challenge me while contributing to meaningful causes. From 2021 to 2025, I dedicated most of my time to the following projects.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/trek-report/";
-          },
-        },{id: "nav-volunteering",
-          title: "volunteering",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/volunteering/";
+            window.location.href = "/outdoors/";
           },
         },{id: "post-a-post-with-plotly-js",
         
@@ -430,51 +423,21 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-courses",
+          title: 'Courses',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/courses/";
+            },},{id: "projects-treks",
+          title: 'Treks',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/treks/";
+            },},{id: "projects-volunteering",
+          title: 'Volunteering',
+          description: "",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/volunteering/";
             },},{
         id: 'social-github',
         title: 'GitHub',
