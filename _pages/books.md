@@ -1,8 +1,8 @@
 ---
 layout: book-shelf
-title: volunteering
-permalink: /volunteering/
-nav: true
+title: books
+permalink: /books/
+nav: false
 nav_order: 6
 collection: books
 ---
@@ -11,4 +11,4 @@ collection: books
 >
 > -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
 
-## Some volunteer work I participated in
+## Some books I read

@@ -4,7 +4,7 @@
     - title: Volunteer Work
       institution:
       year: 2021 - Present
-      description: 20 volunteer experiences in 8 countries, including work in NGOs, fundraising for the construction of a school, teaching English, creating websites, permaculture, and eco-building.
+      description: 20 volunteer experiences in different countries, including work in NGOs, fundraising for the construction of a school, teaching English, creating websites, permaculture, and eco-building.
     - title: Marie Curie Research Fellow
       institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
       year: 2017 - 2021
@@ -76,6 +76,17 @@
         - physics
         - chemistry
 
+- title: Online Courses
+  type: time_table
+  contents:
+    - year: 2020
+      items:
+        - <a href="https://www.coursera.org/specializations/reinforcement-learning">Reinforcement Learning Specialization</a>
+        - <a href="https://www.coursera.org/specializations/machine-learning-introduction">Machine Learning Specialization</a>
+    - year: 2018
+      items:
+        - <a href="https://www.udacity.com/course/intro-to-data-analysis--ud170">Introduction to Data Analysis</a>
+
 - title: Skills
   type: nested_list
   contents:
@@ -93,7 +104,7 @@
         - OpenAI Gymnasium
         - Matplotlib
         - ROS
-    - title: Software Development
+    - title: DevOps & Tools
       items:
         - Git / Github
         - Pytest
@@ -127,20 +138,9 @@
     - name: Spanish
       value: Proficient
 
-- title: Certificates
-  type: time_table
-  contents:
-    - year: 2020
-      items:
-        - <a href="https://www.coursera.org/specializations/reinforcement-learning">Reinforcement Learning Specialization</a>
-        - <a href="https://www.coursera.org/specializations/machine-learning-introduction">Machine Learning Specialization</a>
-    - year: 2018
-      items:
-        - <a href="https://www.udacity.com/course/intro-to-data-analysis--ud170">Introduction to Data Analysis</a>
-
 - title: Interests
   type: list
   contents:
     - <u>Technology :</u> electronics (Arduino, Raspberry Pi), Kaggle competitions, fine-tuning Large Language Model
-    - <u>Outdoors :</u> trekking, slow travel, permaculture, Geocaching
+    - <u>Outdoors :</u> trekking, slow travel, permaculture, geocaching
     - <u>Hobbies :</u> badminton (15 years), guitar (10 years), yoga and meditation

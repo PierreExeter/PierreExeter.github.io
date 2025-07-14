@@ -1,11 +1,11 @@
 ---
 layout: page
-title: trek reports
-permalink: /trek-report/
-description: I'm passionate about outdoors and trekking. Here are some memorable treks.
+title: outdoors
+permalink: /outdoors/
+description: Aside from work, I find fulfillment in outdoor adventures, international volunteering and personal development courses—experiences that challenge me while contributing to meaningful causes. From 2021 to 2025, I dedicated most of my time to the following projects.
 nav: true
 nav_order: 5
-display_categories: [work, fun]
+display_categories: [outdoors]
 horizontal: false
 ---
 
