@@ -2,7 +2,7 @@
 layout: page
 title: Volunteering
 description:
-img: assets/img/12.jpg
+img: assets/img/treks/huayhuash/hor2.jpg
 importance: 2
 category: outdoors
 related_publications: false
