@@ -79,12 +79,16 @@
 - title: Online Courses
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - <a href="https://www.docker.com/101-tutorial/">Docker tutorial -- Build and share a containerized app</a>
     - year: 2020
       items:
         - <a href="https://www.coursera.org/specializations/reinforcement-learning">Reinforcement Learning Specialization</a>
         - <a href="https://www.coursera.org/specializations/machine-learning-introduction">Machine Learning Specialization</a>
     - year: 2018
       items:
+        - <a href="https://docs.pytorch.org/tutorials/beginner/basics/intro.html">Getting started with Pytorch</a>
         - <a href="https://www.udacity.com/course/intro-to-data-analysis--ud170">Introduction to Data Analysis</a>
 
 - title: Skills
