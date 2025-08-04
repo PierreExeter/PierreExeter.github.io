@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Courses
-description:
+description: I’m passionate about personal growth, exploring the connection between mind and body and learning how to adopt a more sustainable lifestyle. Here are some courses I’ve completed to deepen my understanding in these areas.
 img: assets/img/treks/huayhuash/hor10.jpg
 importance: 3
 category: outdoors
 related_publications: false
+permalink: /outdoors/courses/
 ---
 
 

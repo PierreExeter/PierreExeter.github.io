@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Volunteering
-description:
+description: I find fulfillment in volunteering abroad and contributing to meaningful causes. From 2021 to 2025, I dedicated most of my time to the following projects.
 img: assets/img/treks/huayhuash/hor2.jpg
 importance: 2
 category: outdoors
 related_publications: false
+permalink: /outdoors/volunteering/
 ---
 
 

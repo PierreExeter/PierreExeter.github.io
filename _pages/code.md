@@ -3,8 +3,8 @@ layout: page
 permalink: /code/
 title: code
 description: 
-nav: true
-nav_order: 2
+nav: false
+nav_order: 3
 ---
 
 <!-- Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories. -->

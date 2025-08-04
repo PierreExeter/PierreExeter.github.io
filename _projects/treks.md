@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Treks
-description:
+description: I love mountains and outdoors. Here are some of my most memorable hikes and treks around the world.
 img: assets/img/treks/huayhuash/hor7.jpg
 importance: 1
 category: outdoors
 related_publications: false
+permalink: /outdoors/treks/
 ---
 
 I love mountains and outdoors. Here are some of my most memorable hikes and treks around the world.
