@@ -44,15 +44,59 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outdoors/";
           },
-        },{id: "post-rl-reach",
+        },{id: "post-reinforcement-learning-for-robotic-arm-control",
         
-          title: "rl-reach",
+          title: "Reinforcement Learning for Robotic Arm Control",
         
-        description: "A platform for running reproducible reinforcement learning experiments for robotics applications.",
+        description: "Trained a reinforcement learning agent in a custom Gymnasium environment to solve a robotic reach task using PyBullet physics. This project demonstrates my ability to implement RL algorithms, simulate robotic systems, and optimize control policies for real-world applications.",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/rl-reach/";
+          
+        },
+      },{id: "post-custom-reinforcement-learning-environments",
+        
+          title: "Custom Reinforcement Learning Environments",
+        
+        description: "Developed modular Gymnasium environments for training RL agents, integrating physics-based robotics simulations via PyBullet and ROS.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/rl-envs/";
+          
+        },
+      },{id: "post-classifier-visualisation",
+        
+          title: "Classifier Visualisation",
+        
+        description: "Developed an intuitive Python tool to train, evaluate, and visualize decision boundaries of multiple classifiers (SVM, Random Forest, Logistic Regression) on 2D datasets. Implemented hyperparameter tuning to optimize model performance while providing visual explanations of model behavior and trade-offs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/classification/";
+          
+        },
+      },{id: "post-multi-objective-optimization-in-python",
+        
+          title: "Multi-Objective Optimization in Python",
+        
+        description: "A collection of practical examples and visualizations demonstrating evolutionary algorithms, constraint handling, and Pareto front analysis using the PYMOO framework.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/optimisation/";
+          
+        },
+      },{id: "post-boston-house-price-prediction",
+        
+          title: "Boston House Price Prediction",
+        
+        description: "Engineered features and applied regression models (linear, ridge, lasso) to predict prices, addressing overfitting with regularization. Enhanced performance through EDA and ensemble techniques like Random Forest and Gradient Boosting.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/regression/";
           
         },
       },{id: "books-the-godfather",
