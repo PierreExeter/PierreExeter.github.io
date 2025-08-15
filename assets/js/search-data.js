@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outdoors/";
           },
-        },{id: "post-reinforcement-learning-for-robotic-arm-control",
+        },{id: "post-customer-data-cleaning-with-sql",
+        
+          title: "Customer Data Cleaning with SQL",
+        
+        description: "Processed raw customer data using SQL by removing duplicates, handling missing values, standardizing formats, and splitting columns for better analysis. Ensured data integrity and prepared it for actionable insights.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/customer-data-cleaning/";
+          
+        },
+      },{id: "post-reinforcement-learning-for-robotic-arm-control",
         
           title: "Reinforcement Learning for Robotic Arm Control",
         
