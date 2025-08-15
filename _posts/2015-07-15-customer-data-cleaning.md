@@ -62,7 +62,7 @@ FROM customer_data;
 </div>
 
 
-## 1. Drop the Duplicates
+## Drop the Duplicates
 
 Let's check if there are any duplicates by counting the number of customer_id.
 
@@ -153,7 +153,7 @@ WHERE id IN (
 NOTE : if the deletion didn't work in MySQL Workbench, go to Edit > Preferences... > SQL editor. At the bottom, uncheck the box 'Safe update'.
 
 
-## 2. STANDARDIZE DATA
+## Standardize the data
 
 Let's remove unwanted characters in the phone numbers.
 ```sql
