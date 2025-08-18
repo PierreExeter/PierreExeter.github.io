@@ -81,7 +81,8 @@
   contents:
     - year: 2025
       items:
-        - <a href="https://www.docker.com/101-tutorial/">Docker tutorial -- Build and share a containerized app</a>
+        - <a href="https://www.analystbuilder.com/courses/mysql-for-data-analytics">MySQL for Data Analytics</a>
+        - <a href="https://www.docker.com/101-tutorial/">Docker tutorial — Build and share a containerized app</a>
     - year: 2020
       items:
         - <a href="https://www.coursera.org/specializations/reinforcement-learning">Reinforcement Learning Specialization</a>
@@ -97,7 +98,7 @@
     - title: Programming Languages
       items:
         - Python
-        - Matlab
+        - SQL
     - title: Frameworks & Libraries
       items:
         - Numpy
@@ -118,7 +119,8 @@
         - VSCode
     - title: Web Development
       items:
-        - HTML/CSS
+        - HTML
+        - CSS
         - Wordpress
         - Jekyll
     - title: Engineering
