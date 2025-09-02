@@ -28,7 +28,7 @@ latest_posts:
 ---
 
 Passionate about transforming data into actionable insights, I specialise in:
-- **Data Analytics** : data acquisition, cleaning, visualization, interactive dashboards, process monitoring.
+- **Data Analytics** : data acquisition, data cleaning, data visualization, interactive dashboards, process monitoring.
 - **Machine Learning** : predictive modeling, anomaly detection, reinforcement learning (robotics), evolutionary optimization.
 - **Python** : Scikit-learn, Pytorch, NumPy, Pandas, Matplotlib.
 - **Databases** : MySQL
