@@ -1,10 +1,54 @@
+- title: Skills
+  type: nested_list
+  contents:
+    - title: Python (8 years)
+      items:
+        - Scikit-learn
+        - Pytorch
+        - Numpy
+        - Pandas
+        - Matplotlib
+        - Jupyter
+    - title: Databases
+      items:
+        - SQL
+        - MySQL
+    - title: DevOps
+      items:
+        - Git
+        - Docker
+        - Azure (Databricks, Synapse Analytics, Data Factory)
+        - Pytest
+        - Travis CI
+        - Anaconda
+        - VSCode
+    - title: Web Development
+      items:
+        - HTML / CSS
+        - Streamlit
+        - Wordpress
+        - Jekyll
+    - title: Engineering
+      items:
+        - Finite Element Analysis (Abaqus, Ansys)
+        - Computer-Aided-Design (Solidworks, OnShape)
+        - ROS / ROS2
+    - title: Other
+      items:
+        - Linux / Bash
+        - Arduino
+        - Markdown
+        - Latex
+
 - title: Work Experience
   type: time_table
   contents:
-    - title: Volunteer Work
+    - title: Career Transition
       institution:
       year: 2021 - Present
-      description: 20 volunteer experiences in different countries, including work in NGOs, fundraising for the construction of a school, teaching English, creating websites, permaculture, and eco-building.
+      description: 
+        - Additional training to become a professional data analyst
+        - 20 volunteer work experiences in 8 countries
     - title: Marie Curie Research Fellow
       institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
       year: 2017 - 2021
@@ -91,48 +135,6 @@
       items:
         - <a href="https://docs.pytorch.org/tutorials/beginner/basics/intro.html">Getting started with Pytorch</a>
         - <a href="https://www.udacity.com/course/intro-to-data-analysis--ud170">Introduction to Data Analysis</a>
-
-- title: Skills
-  type: nested_list
-  contents:
-    - title: Programming Languages
-      items:
-        - Python
-        - SQL
-    - title: Frameworks & Libraries
-      items:
-        - Numpy
-        - Scikit-learn
-        - Pytorch
-        - Pandas
-        - Jupyter
-        - OpenAI Gymnasium
-        - Matplotlib
-        - ROS
-    - title: DevOps & Tools
-      items:
-        - Git / Github
-        - Pytest
-        - Travis CI
-        - Docker
-        - Anaconda
-        - VSCode
-    - title: Web Development
-      items:
-        - HTML
-        - CSS
-        - Wordpress
-        - Jekyll
-    - title: Engineering
-      items:
-        - Finite Element Analysis (Abaqus, Ansys)
-        - Computer-Aided-Design (Solidworks, OnShape)
-    - title: Other
-      items:
-        - Linux / Bash
-        - Arduino
-        - Markdown
-        - Latex
 
 - title: Languages
   type: map

@@ -28,10 +28,10 @@ latest_posts:
 ---
 
 Passionate about transforming data into actionable insights, I specialise in:
-- **Data analytics** : Data acquisition, cleaning, visualization, interactive dashboards, process monitoring.
-- **Machine learning** : Predictive modeling, anomaly detection, reinforcement learning (robotics), evolutionary optimization.
-- **Python** : Scikit-learn, NumPy, Pandas, and Matplotlib.
-- **SQL**
+- **Data Analytics** : data acquisition, cleaning, visualization, interactive dashboards, process monitoring.
+- **Machine Learning** : predictive modeling, anomaly detection, reinforcement learning (robotics), evolutionary optimization.
+- **Python** : Scikit-learn, Pytorch, NumPy, Pandas, Matplotlib.
+- **Databases** : MySQL
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
