@@ -125,6 +125,7 @@
   contents:
     - year: 2025
       items:
+        - <a href="https://www.analystbuilder.com/courses/cloud-computing-essentials-with-azure-and-aws">Cloud Computing Essentials with Azure</a>
         - <a href="https://www.analystbuilder.com/courses/mysql-for-data-analytics">MySQL for Data Analytics</a>
         - <a href="https://www.docker.com/101-tutorial/">Docker tutorial — Build and share a containerized app</a>
     - year: 2020
@@ -135,6 +136,7 @@
       items:
         - <a href="https://docs.pytorch.org/tutorials/beginner/basics/intro.html">Getting started with Pytorch</a>
         - <a href="https://www.udacity.com/course/intro-to-data-analysis--ud170">Introduction to Data Analysis</a>
+        - <a href="https://www.kaggle.com/learn/intro-to-machine-learning">Introduction to Machine Learning</a>
 
 - title: Languages
   type: map
@@ -149,6 +151,6 @@
 - title: Interests
   type: list
   contents:
-    - <u>Technology :</u> electronics (Arduino, Raspberry Pi), Kaggle competitions, fine-tuning Large Language Model
-    - <u>Outdoors :</u> trekking, slow travel, permaculture, geocaching
-    - <u>Hobbies :</u> badminton (15 years), guitar (10 years), yoga and meditation
+    - <u>Technology:</u> electronics (Arduino, Raspberry Pi), Kaggle competitions, fine-tuning Large Language Model
+    - <u>Outdoors:</u> trekking, slow travel, permaculture, geocaching, volunteering
+    - <u>Hobbies:</u> badminton (15 years), guitar (10 years), yoga, meditation
