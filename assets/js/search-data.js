@@ -44,7 +44,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outdoors/";
           },
-        },{id: "post-customer-data-cleaning-with-sql",
+        },{id: "post-data-analysis-and-regression-predictions-with-python",
+        
+          title: "Data Analysis and Regression Predictions with Python",
+        
+        description: "Built a predictive model in Python to forecast residential home prices, applying machine learning with scikit-learn to solve a supervised regression problem.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/python-regression/";
+          
+        },
+      },{id: "post-exploratory-data-analysis-and-classification-predictions-with-python",
+        
+          title: "Exploratory Data Analysis and Classification Predictions with Python",
+        
+        description: "Developed a predictive model to identify factors influencing survival during the Titanic disaster. This project involved a complete machine learning workflow, from data cleaning and feature engineering to fitting a classifier.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/python-classification/";
+          
+        },
+      },{id: "post-deployment-of-a-large-language-model-web-application",
+        
+          title: "Deployment of a Large Language Model Web Application",
+        
+        description: "Deployed a chatbot prototype to explore the capabilities of large language models. This project involved integrating the Llama 2 API from Replicate into a responsive front-end web application built with Streamlit.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/llama2-chatbot/";
+          
+        },
+      },{id: "post-customer-data-cleaning-with-sql",
         
           title: "Customer Data Cleaning with SQL",
         
@@ -85,7 +118,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/classification/";
+            window.location.href = "/blog/classifier-visualisation/";
           
         },
       },{id: "post-multi-objective-optimization-in-python",
@@ -97,17 +130,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/optimisation/";
-          
-        },
-      },{id: "post-boston-house-price-prediction",
-        
-          title: "Boston House Price Prediction",
-        
-        description: "Engineered features and applied regression models (linear, ridge, lasso) to predict prices, addressing overfitting with regularization. Enhanced performance through EDA and ensemble techniques like Random Forest and Gradient Boosting.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/regression/";
           
         },
       },{id: "books-the-godfather",
