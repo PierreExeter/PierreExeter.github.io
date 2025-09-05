@@ -7,12 +7,15 @@
         - Pytorch
         - Numpy
         - Pandas
-        - Matplotlib
         - Jupyter
     - title: Databases
       items:
         - SQL
         - MySQL
+    - title: Data Visualisation
+      items:
+        - Tableau
+        - Matplotlib / Seaborn
     - title: DevOps
       items:
         - Git
@@ -126,6 +129,7 @@
     - year: 2025
       items:
         - <a href="https://www.analystbuilder.com/courses/cloud-computing-essentials-with-azure-and-aws">Cloud Computing Essentials with Azure</a>
+        - <a href="https://www.analystbuilder.com/courses/tableau-for-data-visualization">Tableau for Data Visualization</a>
         - <a href="https://www.analystbuilder.com/courses/mysql-for-data-analytics">MySQL for Data Analytics</a>
         - <a href="https://www.docker.com/101-tutorial/">Docker tutorial — Build and share a containerized app</a>
     - year: 2020
