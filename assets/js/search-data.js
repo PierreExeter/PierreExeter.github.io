@@ -77,6 +77,17 @@ ninja.data = [{
             window.location.href = "/blog/llama2-chatbot/";
           
         },
+      },{id: "post-data-visualisation-with-tableau",
+        
+          title: "Data Visualisation with Tableau",
+        
+        description: "A collection of data visualisation dashboards with Tableau.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/tableau-dashboards/";
+          
+        },
       },{id: "post-customer-data-cleaning-with-sql",
         
           title: "Customer Data Cleaning with SQL",
