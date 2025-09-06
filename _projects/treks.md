@@ -9,8 +9,6 @@ related_publications: false
 permalink: /outdoors/treks/
 ---
 
-I love mountains and outdoors. Here are some of my most memorable hikes and treks around the world.
-
 
 ## Peru
 
