@@ -171,7 +171,7 @@ ninja.data = [{
               window.location.href = "/outdoors/treks/";
             },},{id: "projects-volunteering",
           title: 'Volunteering',
-          description: "I find fulfillment in volunteering abroad and contributing to meaningful causes. From 2021 to 2025, I dedicated most of my time to the following projects.",
+          description: "I find fulfillment in volunteering abroad and contributing to meaningful causes. Between 2021 and 2025, I dedicated my time to the following projects.",
           section: "Projects",handler: () => {
               window.location.href = "/outdoors/volunteering/";
             },},{
