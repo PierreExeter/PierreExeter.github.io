@@ -1,7 +1,7 @@
 - title: Skills
   type: nested_list
   contents:
-    - title: Python (8 years)
+    - title: Python
       items:
         - Scikit-learn
         - Pytorch
@@ -157,4 +157,4 @@
   contents:
     - <u>Technology:</u> electronics (Arduino, Raspberry Pi), Kaggle competitions, fine-tuning Large Language Model
     - <u>Outdoors:</u> trekking, slow travel, permaculture, geocaching, volunteering
-    - <u>Hobbies:</u> badminton (15 years), guitar (10 years), yoga, meditation
+    - <u>Hobbies:</u> badminton (15 years), guitar (10 years), chess, yoga, meditation
