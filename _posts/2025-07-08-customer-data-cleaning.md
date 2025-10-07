@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Customer Data Cleaning with SQL
-date: 2025-05-18 21:01:00
+date: 2025-07-08 21:01:00
 description: Processed raw customer data using SQL by removing duplicates, handling missing values, standardizing formats, and splitting columns for better analysis. Ensured data integrity and prepared it for actionable insights.
 tags: sql data-analysis
 categories:

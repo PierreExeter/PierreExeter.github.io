@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deployment of a Large Language Model Web Application
-date: 2025-05-28 21:01:00
+date: 2025-07-09 21:01:00
 description: Deployed a chatbot prototype to explore the capabilities of large language models. This project involved integrating the Llama 2 API from Replicate into a responsive front-end web application built with Streamlit.
 tags: LLM python streamlit docker
 categories:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Classifier Visualisation
-date: 2025-05-14 21:01:00
+date: 2025-07-05 21:01:00
 description: Developed an intuitive Python tool to train, evaluate, and visualize decision boundaries of multiple classifiers (SVM, Random Forest, Logistic Regression) on 2D datasets. Implemented hyperparameter tuning to optimize model performance while providing visual explanations of model behavior and trade-offs.
 tags: python scikit-learn classification supervised-learning
 categories:

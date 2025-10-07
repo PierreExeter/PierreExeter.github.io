@@ -15,19 +15,22 @@
     - title: Data Visualisation
       items:
         - Tableau
+        - Grafana / Prometheus
         - Matplotlib / Seaborn
     - title: DevOps
       items:
         - Git
         - Docker
-        - Azure (Databricks, Synapse Analytics, Data Factory)
-        - Pytest
-        - Travis CI
+        - Azure
+        - Unit tests (Pytest)
+        - Github Actions
         - Anaconda
-        - VSCode
+        - VS Code
     - title: Web Development
       items:
-        - HTML / CSS
+        - HTML
+        - CSS
+        - Flask
         - Streamlit
         - Wordpress
         - Jekyll
@@ -42,6 +45,7 @@
         - Arduino
         - Markdown
         - Latex
+        - Agile project management (Jira)
 
 - title: Work Experience
   type: time_table
@@ -49,43 +53,45 @@
     - title: Career Transition
       institution:
       year: 2021 - Present
-      description: 
-        - Additional training to become a professional data analyst
-        - 20 volunteer work experiences in 8 countries
+      description:
+        - Comprehensive preparation for a career in data, with focused training in MLOps, data analysis and data science.
+        - Built a portfolio of dashboards, predictive models and data pipelines.
     - title: Marie Curie Research Fellow
       institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
       year: 2017 - 2021
       description: 
-        - supervised learning
-        - reinforcement learning
-        - time series analysis
-        - anomaly detection
-        - robotics
+        - Awarded a competitive €245,000 grant to develop machine learning solutions for advanced manufacturing optimisation.
+        - Designed and implemented an anomaly detection system using ML models on sensor time-series data, resulting in a ~15% reduction in unplanned downtime.
+        - Developed a reinforcement learning framework to train robotic manipulators on precision reaching tasks.
     - title: Postdoctoral Research Fellow
       institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
       year: 2016 - 2017
-      description:
-        - evolutionary and topology optimisation
-        - finite element analysis
-        - composite materials
+      description: 
+        - Optimised composite structures via computational methods
+        - Applied topology and evolutionary optimisation to define optimal material layouts, achieving a 20% improvement in stiffness-to-weight ratio.
+        - Developed high-fidelity numerical models (FEA) to predict complex mechanical behavior, validating against experimental data.
+        - Employed machine learning on simulation models to identify optimal material parameters.
+    - title: PhD Researcher
+      institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
+      year: 2012 - 2016
+      description: 
+        - Developed passive vibration damping solutions for lightweight sandwich structures
+        - Performed modal analysis on aircraft structures using finite element analysis (Ansys).
+        - Implemented evolutionary optimization algorithms in Matlab to identify optimal damping configurations.
+        - Validated models experimentally using accelerometers, laser vibrometers and spectrum analysers.
     - title: Teaching Assistant
       institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
       year: 2012 - 2015
       description: 
-        - solid mechanics
-        - computational engineering
-        - Computer-Aided Design (CAD).
+        - "Modules taught : solid mechanics, computational engineering, Computer-Aided Design (CAD)"
     - title: Research Assistant
       institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
       year: 2011 - 2012
-      description: 
-        - numerical simulation
-        - finite element analysis (Abaqus and Ansys Mechanical)
-    - title: Intern
+      description: Modelling of wear using adaptive meshing in finite element analysis applied to aerofoil blade friction damper in a Rolls-Royce gas turbine.
+    - title: Project Management Intern
       institution: <a href="https://www.airbus.com/">Airbus, France</a>
       year: 2011
-      description: 
-        - Project management
+      description: Harmonisation of CatiaV5 settings configuration for A350 programme across all the main Airbus plants (France, Spain, Germany, United Kingdom).
 
 - title: Education
   type: time_table

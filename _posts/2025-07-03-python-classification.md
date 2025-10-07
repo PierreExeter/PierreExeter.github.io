@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Exploratory Data Analysis and Classification Predictions with Python
-date: 2025-05-29 21:01:00
+date: 2025-07-03 21:01:00
 description: Developed a predictive model to identify factors influencing survival during the Titanic disaster. This project involved a complete machine learning workflow, from data cleaning and feature engineering to fitting a classifier.
 tags: python scikit-learn machine-learning classification
 categories:

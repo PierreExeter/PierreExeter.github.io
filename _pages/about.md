@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Analyst | Turning Data into Strategy | SQL, Python | Business Intelligence
+subtitle: Data Analyst | MLOps Engineer | Data Scientist | SQL, Python
 
 profile:
   align: right
@@ -27,11 +27,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Passionate about transforming data into actionable insights, I specialise in:
-- **Data Analytics** : data acquisition, data cleaning, data visualization, interactive dashboards, process monitoring.
-- **Machine Learning** : predictive modeling, anomaly detection, reinforcement learning (robotics), evolutionary optimization.
-- **Python** : Scikit-learn, Pytorch, NumPy, Pandas, Matplotlib.
+Data-focused professional transitioning from an academic career after a four-year period of dedicated skills development. Proficient in MLOps, Data Analysis, and Data Science, with a proven ability to build and deploy machine learning models. 
+
+I specialise in:
+- **Data analytics** : data acquisition, data cleaning, data visualisation, interactive dashboards, process monitoring.
+- **Machine learning** : predictive modeling, anomaly detection, reinforcement learning (robotics), evolutionary optimisation.
+- **Python** : Scikit-learn, Pytorch, NumPy, Pandas.
 - **Databases** : MySQL
+- **DevOps**: Docker, Azure, Github Actions. 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

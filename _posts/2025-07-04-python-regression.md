@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Analysis and Regression Predictions with Python
-date: 2025-05-30 21:01:00
+date: 2025-07-04 21:01:00
 description: Built a predictive model in Python to forecast residential home prices, applying machine learning with scikit-learn to solve a supervised regression problem.
 tags: python scikit-learn predictive-modelling EDA regression
 categories:
