@@ -44,7 +44,84 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outdoors/";
           },
-        },{id: "post-data-analysis-and-regression-predictions-with-python",
+        },{id: "post-mlops-pipeline-deployment",
+        
+          title: "MLOps Pipeline Deployment",
+        
+        description: "Deployed a machine learning model that predicts patient medical charges based on demographic and health data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/mlops-pipeline/";
+          
+        },
+      },{id: "post-performance-monitoring-with-grafana",
+        
+          title: "Performance Monitoring with Grafana",
+        
+        description: "Monitored performance metrics of a predictive regression model using Grafana and automated alerts.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/grafana/";
+          
+        },
+      },{id: "post-deployment-of-a-large-language-model-web-application",
+        
+          title: "Deployment of a Large Language Model Web Application",
+        
+        description: "Deployed a chatbot prototype to explore the capabilities of large language models. This project involved integrating the Llama 2 API from Replicate into a responsive front-end web application built with Streamlit.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/llama2-chatbot/";
+          
+        },
+      },{id: "post-customer-data-cleaning-with-sql",
+        
+          title: "Customer Data Cleaning with SQL",
+        
+        description: "Processed raw customer data using SQL by removing duplicates, handling missing values, standardizing formats, and splitting columns for better analysis. Ensured data integrity and prepared it for actionable insights.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/customer-data-cleaning/";
+          
+        },
+      },{id: "post-data-visualisation-with-tableau",
+        
+          title: "Data Visualisation with Tableau",
+        
+        description: "A collection of data visualisation dashboards with Tableau.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/tableau-dashboards/";
+          
+        },
+      },{id: "post-reinforcement-learning-for-robotic-arm-control",
+        
+          title: "Reinforcement Learning for Robotic Arm Control",
+        
+        description: "Trained a reinforcement learning agent in a custom Gymnasium environment to solve a robotic reach task using PyBullet physics. This project demonstrates my ability to implement RL algorithms, simulate robotic systems, and optimize control policies for real-world applications.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/rl-reach/";
+          
+        },
+      },{id: "post-classifier-visualisation",
+        
+          title: "Classifier Visualisation",
+        
+        description: "Developed an intuitive Python tool to train, evaluate, and visualize decision boundaries of multiple classifiers (SVM, Random Forest, Logistic Regression) on 2D datasets. Implemented hyperparameter tuning to optimize model performance while providing visual explanations of model behavior and trade-offs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/classifier-visualisation/";
+          
+        },
+      },{id: "post-data-analysis-and-regression-predictions-with-python",
         
           title: "Data Analysis and Regression Predictions with Python",
         
@@ -66,50 +143,6 @@ ninja.data = [{
             window.location.href = "/blog/python-classification/";
           
         },
-      },{id: "post-deployment-of-a-large-language-model-web-application",
-        
-          title: "Deployment of a Large Language Model Web Application",
-        
-        description: "Deployed a chatbot prototype to explore the capabilities of large language models. This project involved integrating the Llama 2 API from Replicate into a responsive front-end web application built with Streamlit.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/llama2-chatbot/";
-          
-        },
-      },{id: "post-data-visualisation-with-tableau",
-        
-          title: "Data Visualisation with Tableau",
-        
-        description: "A collection of data visualisation dashboards with Tableau.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/tableau-dashboards/";
-          
-        },
-      },{id: "post-customer-data-cleaning-with-sql",
-        
-          title: "Customer Data Cleaning with SQL",
-        
-        description: "Processed raw customer data using SQL by removing duplicates, handling missing values, standardizing formats, and splitting columns for better analysis. Ensured data integrity and prepared it for actionable insights.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/customer-data-cleaning/";
-          
-        },
-      },{id: "post-reinforcement-learning-for-robotic-arm-control",
-        
-          title: "Reinforcement Learning for Robotic Arm Control",
-        
-        description: "Trained a reinforcement learning agent in a custom Gymnasium environment to solve a robotic reach task using PyBullet physics. This project demonstrates my ability to implement RL algorithms, simulate robotic systems, and optimize control policies for real-world applications.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/rl-reach/";
-          
-        },
       },{id: "post-custom-reinforcement-learning-environments",
         
           title: "Custom Reinforcement Learning Environments",
@@ -119,17 +152,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/rl-envs/";
-          
-        },
-      },{id: "post-classifier-visualisation",
-        
-          title: "Classifier Visualisation",
-        
-        description: "Developed an intuitive Python tool to train, evaluate, and visualize decision boundaries of multiple classifiers (SVM, Random Forest, Logistic Regression) on 2D datasets. Implemented hyperparameter tuning to optimize model performance while providing visual explanations of model behavior and trade-offs.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/classifier-visualisation/";
           
         },
       },{id: "post-multi-objective-optimization-in-python",
