@@ -9,9 +9,7 @@ thumbnail: assets/img/portfolio/llama2-chatbot.png
 featured: false
 ---
 
-
 In this project, I deployed a chatbot prototype to explore the capabilities of large language models. This project involved integrating the Llama 2 API from [Replicate](https://replicate.com/) into a responsive front-end web application built with [Streamlit](https://streamlit.io/).
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -19,14 +17,10 @@ In this project, I deployed a chatbot prototype to explore the capabilities of l
     </div>
 </div>
 
-
 <p style="text-align:center;">
   <a href="https://llama2-chat-project.streamlit.app/">VIEW LIVE DEMO</a>
 </p>
 
-
 ## Code
 
 {% include repository/repo.liquid repository='PierreExeter/llama2' %}
-
-

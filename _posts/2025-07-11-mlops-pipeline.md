@@ -9,17 +9,16 @@ thumbnail: assets/img/portfolio/insurance-app.png
 featured: false
 ---
 
-
 ## Project
 
 <p style="text-align:center;">
   <a href="https://insurance-predictions.azurewebsites.net/">VIEW DEPLOYED APP</a>
 </p>
 
-
 This project demonstrates a MLOps pipeline for deploying a machine learning model into a production-ready web application. The goal is to help an insurance company forecast patient charges using input like age, BMI, and smoking status.
 
 The solution includes:
+
 - A **machine learning** model trained to predict insurance charges
 - A **Flask back-end** to serve predictions
 - A **HTML / CSS front-end** for user input
@@ -36,6 +35,3 @@ The solution includes:
 ## Code
 
 {% include repository/repo.liquid repository='PierreExeter/MLOps-Pipeline-Deployment' %}
-
-
-

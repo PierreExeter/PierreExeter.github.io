@@ -9,9 +9,7 @@ thumbnail: assets/img/portfolio/optimisation1.gif
 featured: false
 ---
 
-
 A collection of practical examples and visualizations demonstrating evolutionary algorithms, constraint handling, and Pareto front analysis using the PYMOO framework.
-
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -25,9 +23,6 @@ A collection of practical examples and visualizations demonstrating evolutionary
     Objective space and design space.
 </div>
 
-
 ## Code
 
 {% include repository/repo.liquid repository='PierreExeter/pymoo-tutorials' %}
-
-

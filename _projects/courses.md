@@ -9,15 +9,16 @@ related_publications: false
 permalink: /outdoors/courses/
 ---
 
-
-
 #### Introduction to Permaculture
+
 - Apr 2022 -- Arona, Spain
 
 #### Permaculture Design Course
+
 - Feb 2023 -- Orgiva, Spain
 
 #### Vipassana Meditation Courses
+
 - May 2018 -- Cusco, Peru
 - Jun 2024 -- Lumbini, Nepal
 - Sep 2024 -- Santa Maria de Palautordera, Spain
@@ -25,10 +26,10 @@ permalink: /outdoors/courses/
 - Mar 2025 -- Guarne, Colombia
 
 #### Introduction to Buddhism courses
+
 - May 2024 -- Kathmandu, Nepal
 - Jul 2024 -- Dharamshala, India
 
 #### 200 hrs Yoga Teacher Training course
+
 - Nov 2023 -- Dharamshala, India
-
-

@@ -9,11 +9,9 @@ thumbnail: assets/img/portfolio/titanic1.png
 featured: false
 ---
 
-
 ## Code
 
 {% include repository/repo.liquid repository='PierreExeter/data-science-projects/tree/main/1_titanic' %}
-
 
 ## Project
 

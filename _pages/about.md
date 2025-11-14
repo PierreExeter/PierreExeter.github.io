@@ -2,13 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Analyst | MLOps Engineer | Data Scientist | SQL, Python
+subtitle: Data Analyst | Analytics Engineer | Data Scientist
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: #>
+  more_info:#>
     # <p>555 your office number</p>
     # <p>123 your address street</p>
     # <p>Your City, State 12345</p>
@@ -27,14 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Data-focused professional transitioning from an academic career after a four-year period of dedicated skills development. Proficient in MLOps, Data Analysis, and Data Science, with a proven ability to build and deploy machine learning models. 
+Data-focused professional transitioning from an academic career after a four-year period of dedicated skills development. Proficient in Data Engineering, Data Analysis, and Data Science, with a proven ability to build and deploy machine learning models.
 
 I specialise in:
+
 - **Data analytics** : data acquisition, data cleaning, data visualisation, interactive dashboards, process monitoring.
 - **Machine learning** : predictive modeling, anomaly detection, reinforcement learning (robotics), evolutionary optimisation.
 - **Python** : Scikit-learn, Pytorch, NumPy, Pandas.
 - **Databases** : MySQL
-- **DevOps**: Docker, Azure, Github Actions. 
+- **DevOps**: Docker, Azure, Github Actions.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
@@ -55,9 +56,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
  -->
- 
- 
- 
+
  <div class="post">
 
 {% assign blog_name_size = site.blog_name | size %}
@@ -70,7 +69,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     <h2>{{ site.blog_description }}</h2>
   </div>
   {% endif %}
-
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
@@ -98,8 +96,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
     </ul>
   </div>
 {% endif %}
-
-
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
@@ -203,11 +199,11 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 	-->
 
           {% if tags != "" %}
-          
+
           <!-- comment by Pierre
           &nbsp; &middot; &nbsp;
           -->
-          
+
             {% for tag in post.tags %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
               <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
@@ -250,13 +246,12 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 </div>
 
-
 # [CV](/cv)
+
 # [portfolio](/portfolio)
+
 # [publications](/publications)
+
 # [blog](/blog)
+
 # [outdoors](/outdoors)
-
-
-
- 

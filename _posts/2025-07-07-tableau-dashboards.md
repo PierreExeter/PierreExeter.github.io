@@ -18,10 +18,12 @@ This is a collection of data visualisation dashboards built with the [Tableau](h
 </p>
 
 This Tableau dashboard explores the churn rate of customers for a subscription-based business model. The visualisations helped discovering the following insights :
+
 - The churn rate dramatically increased for new users when the monthly charges are high.
-- As customers stayed with the company longer, they were less likely to churn as prices increased.
+  - As customers stayed with the company longer, they were less likely to churn as prices increased.
 
 The business recommendations are:
+
 - to bring on new clients at a lower price point and to slowly increase time over time for a better ROI
 - to convert monthly customers to yearly or 2 years contracts with incentive.
 
@@ -31,17 +33,14 @@ The business recommendations are:
     </div>
 </div>
 
-
-
-
 ## Project 2 : Call Centre Analytics
 
 <p style="text-align:center;">
   <a href="https://public.tableau.com/app/profile/pierre.aumjaud/viz/CallCenterDashboard_17570248796980/Dashboard1">VIEW LIVE DASHBOARD HERE</a>
 </p>
 
-
 This Tableau dashboard analyses the performance of various agents of a call centre. It is found that:
+
 - The overall resolution rate is 70%.
 - There are 27 calls per day on average, with an average call duration of 3.8 minutes.
 - Most calls are received on Monday.
@@ -52,7 +51,6 @@ This Tableau dashboard analyses the performance of various agents of a call cent
         {% include figure.liquid loading="eager" path="assets/img/portfolio/tableau/call-center.png" title="call-centre" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
-
 
 ## Project 3 : Product Profitability Exploration
 
@@ -72,6 +70,3 @@ This Tableau Story helps the user understand the profitability of various produc
         {% include figure.liquid loading="eager" path="assets/img/portfolio/tableau/product-profitability.png" title="product-profitability" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
-
-
-

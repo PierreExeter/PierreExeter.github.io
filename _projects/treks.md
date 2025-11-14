@@ -9,7 +9,6 @@ related_publications: false
 permalink: /outdoors/treks/
 ---
 
-
 ## Peru
 
 #### Huayhuash circuit
@@ -43,7 +42,6 @@ permalink: /outdoors/treks/
         {% include figure.liquid loading="eager" path="assets/img/treks/huayhuash/hor4.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
@@ -96,7 +94,6 @@ permalink: /outdoors/treks/
         {% include figure.liquid loading="eager" path="assets/img/treks/69/hor3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -206,13 +203,13 @@ permalink: /outdoors/treks/
 3. Hosht hike
 4. Jhumtar Bokhtar Meadows
 5. Baskochi meadows
-6. Gulkhin to Passu glacier 
+6. Gulkhin to Passu glacier
 
 ## Ecuador
 
 1. Cotopaxi summit
 2. Quilotoa trek
-3. Tungurahua refuge 
+3. Tungurahua refuge
 
 ## Colombia
 
@@ -222,6 +219,7 @@ permalink: /outdoors/treks/
 4. Cuchilla San Lorenzo
 
 ## Czechia
+
 1. Lysá Hora
 2. Śnieżka peak
 
@@ -241,6 +239,7 @@ permalink: /outdoors/treks/
 2. Monts Făgăraș
 
 ## Spain
+
 1. Ruta del Cares
 2. Montserrat
 3. Las Agudes -- Montseny Natural Park
@@ -257,18 +256,20 @@ permalink: /outdoors/treks/
 14. La Zarza
 
 ## Ireland
+
 1. Wicklow mountains
 2. Howth Loop
 
 ## United Kingdom
+
 1. Dartmoor crossing
 2. Breacon beacons
 3. Hebrides Islands
 
 ## Australia
+
 1. Kalbarri National Park
 2. Karijini National Park
 3. Kakadu National Park
 4. Katherine Gorge National Park
 5. Litchfield National Park
-

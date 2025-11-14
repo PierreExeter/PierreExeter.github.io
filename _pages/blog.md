@@ -29,7 +29,6 @@ pagination:
   </div>
   {% endif %}
 
-
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">
@@ -56,8 +55,6 @@ pagination:
     </ul>
   </div>
 {% endif %}
-
-
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
@@ -161,11 +158,11 @@ pagination:
 	-->
 
           {% if tags != "" %}
-          
+
           <!-- comment by Pierre
           &nbsp; &middot; &nbsp;
           -->
-          
+
             {% for tag in post.tags %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">
               <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>

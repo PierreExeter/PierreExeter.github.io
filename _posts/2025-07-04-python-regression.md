@@ -9,12 +9,9 @@ thumbnail: assets/img/portfolio/regression1.png
 featured: false
 ---
 
-
-
 ## Code
 
 {% include repository/repo.liquid repository='PierreExeter/data-science-projects/tree/main/2_house_prices' %}
-
 
 ## Project
 
@@ -53,4 +50,3 @@ A Streamlit app is provided for performing exploratory data analysis.
         {% include figure.liquid loading="eager" path="assets/img/portfolio/regression5.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true%}
     </div>
 </div>
-

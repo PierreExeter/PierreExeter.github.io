@@ -2,7 +2,7 @@
 layout: page
 permalink: /code/
 title: code
-description: 
+description:
 nav: false
 nav_order: 3
 ---
