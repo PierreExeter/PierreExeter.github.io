@@ -22,6 +22,14 @@
 
 </div>
 
+## Run locally
+
+```
+docker compose up
+```
+
+The website is served on [http://0.0.0.0:8080/](http://0.0.0.0:8080/).
+
 ## User community
 
 The vibrant community of **al-folio** users is growing!
