@@ -31,13 +31,15 @@ Data-focused professional transitioning from an academic career after a four-yea
 
 I specialise in:
 
-  - **Data Analytics**
-    - Databases : [PostgreSQL](https://www.postgresql.org/) • [DuckDB](https://duckdb.org/) • [MySQL](https://www.mysql.com/)
-    - Data visualisation : [Tableau](https://www.tableau.com/) • [Metabase](https://www.metabase.com/) • [Streamlit](https://streamlit.io/) • [Plotly](https://plotly.com/) • [Matplotlib](https://matplotlib.org/) • [Seaborn](https://seaborn.pydata.org/)
-    - Process monitoring : [Grafana](https://grafana.com/) • [Prometheus](https://prometheus.io/)
-    - Data cleaning : [Python](https://www.python.org/) • [Numpy](https://numpy.org/) • [Pandas](https://pandas.pydata.org/)
+- **Data Analytics**
+
+  - Databases : [PostgreSQL](https://www.postgresql.org/) • [DuckDB](https://duckdb.org/) • [MySQL](https://www.mysql.com/)
+  - Data visualisation : [Tableau](https://www.tableau.com/) • [Metabase](https://www.metabase.com/) • [Streamlit](https://streamlit.io/) • [Plotly](https://plotly.com/) • [Matplotlib](https://matplotlib.org/) • [Seaborn](https://seaborn.pydata.org/)
+  - Process monitoring : [Grafana](https://grafana.com/) • [Prometheus](https://prometheus.io/)
+  - Data cleaning : [Python](https://www.python.org/) • [Numpy](https://numpy.org/) • [Pandas](https://pandas.pydata.org/)
 
 - **Data Integration**
+
   - Data transformation : [dbt](https://www.getdbt.com/)
   - ETL / ELT : [Airbyte](https://airbyte.com/)
   - Data Warehouse : [Snowflake](https://www.snowflake.com/)
@@ -45,6 +47,7 @@ I specialise in:
   - Cloud : [Azure](https://azure.microsoft.com/)
 
 - **Data Science**
+
   - Predictive modeling : [Python](https://www.python.org/) • [Scikit-learn](https://scikit-learn.org/) • [Pytorch](https://pytorch.org/) • [Jupyter](https://jupyter.org/)
   - Anomaly detection
   - Reinforcement learning : [Stable-Baselines3](https://stable-baselines3.readthedocs.io/)

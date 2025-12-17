@@ -9,7 +9,6 @@ thumbnail: assets/img/portfolio/metabase/1.png
 featured: false
 ---
 
-
 <p style="text-align:center;">
   <a href="https://github.com/PierreExeter/journalist-fatalities-dashboard">VIEW CODE</a>
 </p>
@@ -44,7 +43,6 @@ featured: false
     </div>
 </div>
 
-
 ## 🎯 Project Overview
 
 An **interactive dashboard** showing global journalist fatalities from 1992-present, leveraging UNESCO's official dataset to uncover critical insights about press safety worldwide. This project demonstrates end-to-end data analytics capabilities from data sourcing to deployment.
@@ -60,14 +58,12 @@ An **interactive dashboard** showing global journalist fatalities from 1992-pres
 - Being in a conflict zone does not significantly increase the risk to get killed.
 - The media most exposed to fatalities are print and TV.
 
-
 ## 🛠️ Technical Implementation
 
-- **Database Architecture**: PostgreSQL 
+- **Database Architecture**: PostgreSQL
 - **Interactive dashboard**: Metabase
 - **ETL Pipeline**: Data processing workflows from CSV to production database
 - **Cloud Deployment**: Containerized deployment on Render platform
-
 
 ## 🏗️ Project Architecture
 
