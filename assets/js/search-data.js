@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outdoors/";
           },
-        },{id: "post-mlops-pipeline-deployment",
+        },{id: "post-interactive-dashboard-with-metabase",
+        
+          title: "Interactive Dashboard with Metabase",
+        
+        description: "Built an interactive dashboard with Metabase to analyse journalist fatalities in the world.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/metabase-unesco-dashboard/";
+          
+        },
+      },{id: "post-mlops-pipeline-deployment",
         
           title: "MLOps Pipeline Deployment",
         
