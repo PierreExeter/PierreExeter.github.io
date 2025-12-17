@@ -1,37 +1,40 @@
 - title: Skills
   type: nested_list
   contents:
-    - title: Python
+    - title: Data Analytics
       items:
+        - Databases (PostgreSQL, DuckDB, MySQL)
+        - Dashboard (Tableau, Metabase, Streamlit)
+        - Data visualisation (Plotly, Matplotlib, Seaborn)
+        - Process monitoring (Grafana, Prometheus)
+        - Data cleaning (Python, Numpy, Pandas)
+    - title: Data Integration
+      items:
+        - dbt
+        - Airbyte
+        - Snowflake
+        - Airflow
+        - Azure
+    - title: Data Science
+      items:
+        - Python
         - Scikit-learn
         - Pytorch
-        - Numpy
-        - Pandas
         - Jupyter
-    - title: Databases
-      items:
-        - SQL
-        - MySQL
-    - title: Data Visualisation
-      items:
-        - Tableau
-        - Grafana / Prometheus
-        - Matplotlib / Seaborn
+        - Reinforcement learning
+        - Evolutionary optimisation
+        - Anomaly detection
     - title: DevOps
       items:
         - Git
         - Docker
-        - Azure
-        - Unit tests (Pytest)
         - Github Actions
-        - Anaconda
-        - VS Code
+        - Pytest
     - title: Web Development
       items:
         - HTML
         - CSS
         - Flask
-        - Streamlit
         - Wordpress
         - Jekyll
     - title: Engineering
@@ -121,7 +124,7 @@
         - system modelling
         - supply chain management
         - sustainable engineering
-    - title: French ‘classes préparatoires’ (BSc Engineering)
+    - title: French 'classes préparatoires' (BSc Engineering)
       institution: <a href="https://francois-arago.mon-ent-occitanie.fr/l-offre-d-enseignement-superieur/les-cpge-scientifiques/la-prepa-arago/">Lycée Arago, France</a>
       year: 2007 - 2009
       description:

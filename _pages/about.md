@@ -27,15 +27,34 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Data-focused professional transitioning from an academic career after a four-year period of dedicated skills development. Proficient in Data Engineering, Data Analysis, and Data Science, with a proven ability to build and deploy machine learning models.
+Data-focused professional transitioning from an academic career after a four-year period of dedicated skills development. Proficient in **data engineering**, **data analysis**, and **data science**, with a proven ability to build and deploy machine learning models.
 
 I specialise in:
 
-- **Data analytics** : data acquisition, data cleaning, data visualisation, interactive dashboards, process monitoring.
-- **Machine learning** : predictive modeling, anomaly detection, reinforcement learning (robotics), evolutionary optimisation.
-- **Python** : Scikit-learn, Pytorch, NumPy, Pandas.
-- **Databases** : MySQL
-- **DevOps**: Docker, Azure, Github Actions.
+  - **Data Analytics**
+    - Databases : [PostgreSQL](https://www.postgresql.org/) • [DuckDB](https://duckdb.org/) • [MySQL](https://www.mysql.com/)
+    - Data visualisation : [Tableau](https://www.tableau.com/) • [Metabase](https://www.metabase.com/) • [Streamlit](https://streamlit.io/) • [Plotly](https://plotly.com/) • [Matplotlib](https://matplotlib.org/) • [Seaborn](https://seaborn.pydata.org/)
+    - Process monitoring : [Grafana](https://grafana.com/) • [Prometheus](https://prometheus.io/)
+    - Data cleaning : [Python](https://www.python.org/) • [Numpy](https://numpy.org/) • [Pandas](https://pandas.pydata.org/)
+
+- **Data Integration**
+  - Data transformation : [dbt](https://www.getdbt.com/)
+  - ETL / ELT : [Airbyte](https://airbyte.com/)
+  - Data Warehouse : [Snowflake](https://www.snowflake.com/)
+  - Data orchestration : [Airflow](https://airflow.apache.org/)
+  - Cloud : [Azure](https://azure.microsoft.com/)
+
+- **Data Science**
+  - Predictive modeling : [Python](https://www.python.org/) • [Scikit-learn](https://scikit-learn.org/) • [Pytorch](https://pytorch.org/) • [Jupyter](https://jupyter.org/)
+  - Anomaly detection
+  - Reinforcement learning : [Stable-Baselines3](https://stable-baselines3.readthedocs.io/)
+  - Evolutionary optimisation
+
+- **DevOps**
+  - Versionning : [Git](https://git-scm.com/)
+  - Container : [Docker](https://www.docker.com/)
+  - CI/CD : [Github Actions](https://github.com/features/actions)
+  - Unit test : [Pytest](https://pytest.org/)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
