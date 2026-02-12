@@ -27,37 +27,48 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Data-focused professional transitioning from an academic career after a four-year period of dedicated skills development. Proficient in **data engineering**, **data analysis**, and **data science**, with a proven ability to build and deploy machine learning models.
+AI Engineer transitioning from academia, with proven expertise in developing autonomous **AI agents**, deploying **machine learning** models, and implementing **RAG-based systems**.
 
-I specialise in:
+## Tech Stack
+
+- **AI Engineering**
+
+  - Agents Orchestration : [LangChain](https://www.langchain.com/) • [LlamaIndex](https://www.llamaindex.ai/)
+  - LLM Inference : [HuggingFace](https://huggingface.co/) • [Ollama](https://ollama.com/)
+  - Vector Database : [Chroma DB](https://www.trychroma.com/)
+  - RAG systems<br />
+    <br>
+
+- **Machine Learning**
+
+  - Predictive Modeling : [Scikit-learn](https://scikit-learn.org/) • [XGBoost](https://xgboost.ai/) • [Pytorch](https://pytorch.org/)
+  - Reinforcement Learning : [Stable-Baselines3](https://stable-baselines3.readthedocs.io/)
+  - Anomaly Detection
+  - Evolutionary Optimisation<br />
+    <br>
+
+- **Software Engineering**
+
+  - Programming : [Python](https://www.python.org/)
+  - API : [FastAPI](https://fastapi.tiangolo.com/) • [Flask](https://flask.palletsprojects.com/en/stable/)
+  - Databases : [PostgreSQL](https://www.postgresql.org/) • [DuckDB](https://duckdb.org/) • [SQLAlchemy](https://www.sqlalchemy.org/)
+  - Agentic Coding : [Claude Code](https://claude.com/product/claude-code)
+  - DevOps : [Git](https://git-scm.com/) • [Github Actions](https://github.com/features/actions) • [Docker](https://www.docker.com/) • [Pytest](https://pytest.org/) • [uv](https://docs.astral.sh/uv/) • [ruff](https://docs.astral.sh/ruff/) • [pyright](https://microsoft.github.io/pyright/#/)<br />
+    <br>
+
+- **Data Engineering**
+
+  - Data Warehouse : [Snowflake](https://www.snowflake.com/)
+  - Data Transformation : [dbt](https://www.getdbt.com/)
+  - ETL Pipeline : [Airbyte](https://airbyte.com/)
+  - Data Orchestration : [Airflow](https://airflow.apache.org/)
+  - Cloud : [Azure](https://azure.microsoft.com/)<br />
+    <br>
 
 - **Data Analytics**
-
-  - Databases : [PostgreSQL](https://www.postgresql.org/) • [DuckDB](https://duckdb.org/) • [MySQL](https://www.mysql.com/)
-  - Data visualisation : [Tableau](https://www.tableau.com/) • [Metabase](https://www.metabase.com/) • [Streamlit](https://streamlit.io/) • [Plotly](https://plotly.com/) • [Matplotlib](https://matplotlib.org/) • [Seaborn](https://seaborn.pydata.org/)
-  - Process monitoring : [Grafana](https://grafana.com/) • [Prometheus](https://prometheus.io/)
-  - Data cleaning : [Python](https://www.python.org/) • [Numpy](https://numpy.org/) • [Pandas](https://pandas.pydata.org/)
-
-- **Data Integration**
-
-  - Data transformation : [dbt](https://www.getdbt.com/)
-  - ETL / ELT : [Airbyte](https://airbyte.com/)
-  - Data Warehouse : [Snowflake](https://www.snowflake.com/)
-  - Data orchestration : [Airflow](https://airflow.apache.org/)
-  - Cloud : [Azure](https://azure.microsoft.com/)
-
-- **Data Science**
-
-  - Predictive modeling : [Python](https://www.python.org/) • [Scikit-learn](https://scikit-learn.org/) • [Pytorch](https://pytorch.org/) • [Jupyter](https://jupyter.org/)
-  - Anomaly detection
-  - Reinforcement learning : [Stable-Baselines3](https://stable-baselines3.readthedocs.io/)
-  - Evolutionary optimisation
-
-- **DevOps**
-  - Versionning : [Git](https://git-scm.com/)
-  - Container : [Docker](https://www.docker.com/)
-  - CI/CD : [Github Actions](https://github.com/features/actions)
-  - Unit test : [Pytest](https://pytest.org/)
+  - Data Cleaning : [Numpy](https://numpy.org/) • [Pandas](https://pandas.pydata.org/) • [Polars](https://pola.rs/)
+  - Process Monitoring : [Grafana](https://grafana.com/) • [Prometheus](https://prometheus.io/)
+  - Data Visualisation : [Tableau](https://www.tableau.com/) • [Metabase](https://www.metabase.com/) • [Streamlit](https://streamlit.io/) • [Plotly](https://plotly.com/)
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

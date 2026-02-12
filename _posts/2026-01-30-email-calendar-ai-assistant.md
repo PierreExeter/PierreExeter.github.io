@@ -19,7 +19,6 @@ featured: false
     </div>
 </div>
 
-
 ## Situation
 
 Managing a busy inbox involves repetitive tasks — classifying emails, drafting replies, and scheduling meetings — that consume significant time but follow predictable patterns. Modern LLMs have made it possible to automate these workflows intelligently, but most solutions operate as black boxes without meaningful human oversight.
@@ -43,4 +42,3 @@ Built a **Streamlit** web app with a modular architecture:
 A fully functional, production-structured application that demonstrates end-to-end LLM integration — from prompt engineering and chain composition to API orchestration and state management. The security-first design (layered approvals, sensitive content detection, trusted sender lists) reflects real-world considerations for AI-assisted communication. The project solidified practical skills in **LangChain**, **Google Cloud APIs**, **OAuth 2.0**, **SQLAlchemy**, and **Streamlit**, with clean separation of concerns across agents, services, database, and UI layers.
 
 **Tech stack:** Python · LangChain · HuggingFace · Streamlit · SQLAlchemy · Gmail API · Google Calendar API · OAuth 2.0
-
