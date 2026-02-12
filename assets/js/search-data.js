@@ -44,7 +44,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outdoors/";
           },
-        },{id: "post-interactive-dashboard-with-metabase",
+        },{id: "post-rag-powered-textbook-assistant",
+        
+          title: "RAG-Powered Textbook Assistant",
+        
+        description: "Built a RAG-based AI tutor for textbooks. Ingests PDF or web sources into ChromaDB, answers questions via LlamaIndex.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/textbook-ai-tutor/";
+          
+        },
+      },{id: "post-ai-powered-email-and-calendar-assistant",
+        
+          title: "AI-Powered Email and Calendar Assistant",
+        
+        description: "Built an AI-powered email and calendar assistant that manages Gmail inbox and Google Calendar. Built with Streamlit, LangChain, and HuggingFace LLMs.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/email-calendar-ai-assistant/";
+          
+        },
+      },{id: "post-reinforcement-learning-for-robotic-arm-control",
+        
+          title: "Reinforcement Learning for Robotic Arm Control",
+        
+        description: "Trained a reinforcement learning agent in a custom Gymnasium environment to solve a robotic reach task using PyBullet physics. This project demonstrates my ability to implement RL algorithms, simulate robotic systems, and optimize control policies for real-world applications.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/rl-reach/";
+          
+        },
+      },{id: "post-interactive-dashboard-with-metabase",
         
           title: "Interactive Dashboard with Metabase",
         
@@ -108,17 +141,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/tableau-dashboards/";
-          
-        },
-      },{id: "post-reinforcement-learning-for-robotic-arm-control",
-        
-          title: "Reinforcement Learning for Robotic Arm Control",
-        
-        description: "Trained a reinforcement learning agent in a custom Gymnasium environment to solve a robotic reach task using PyBullet physics. This project demonstrates my ability to implement RL algorithms, simulate robotic systems, and optimize control policies for real-world applications.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/rl-reach/";
           
         },
       },{id: "post-classifier-visualisation",
