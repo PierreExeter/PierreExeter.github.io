@@ -48,7 +48,6 @@
       year: 2026 - Present
       description:
         - Building an automated system combining web scraping and AI vision to digitize and process administrative tasks.
-  contents:
     - title: Career Transition
       institution:
       year: 2021 - 2025
@@ -136,7 +135,7 @@
       items:
         - <a href="https://www.datacamp.com/courses/developing-llm-applications-with-langchain">Developing LLM Applications with LangChain</a>
         - <a href="https://www.datacamp.com/courses/working-with-the-openai-api">Working with the OpenAI API</a>
-    
+
     - year: 2025
       items:
         - <a href="https://www.analystbuilder.com/courses/cloud-computing-essentials-with-azure-and-aws">Cloud Computing Essentials with Azure</a>
