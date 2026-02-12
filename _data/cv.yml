@@ -1,47 +1,37 @@
 - title: Skills
   type: nested_list
   contents:
+    - title: AI Engineering
+      items:
+        - "Agent Orchestration : LangChain • LlamaIndex"
+        - "LLM Inference : HuggingFace • Ollama"
+        - "Vector Database : Chroma DB"
+        - RAG systems
+    - title: Machine Learning
+      items:
+        - "Predictive Modeling : Scikit-learn • XGBoost • Pytorch"
+        - "Reinforcement Learning : Stable-Baselines3"
+        - Anomaly Detection
+        - Evolutionary Optimisation
+    - title: Software Engineering
+      items:
+        - "Programming : Python"
+        - "API : FastAPI • Flask"
+        - "Databases : PostgreSQL • DuckDB • SQLAlchemy"
+        - "Agentic Coding : Claude Code"
+        - "DevOps : Git • Github Actions • Docker • Pytest • uv • ruff • pyright"
+    - title: Data Engineering
+      items:
+        - "Data Warehouse : Snowflake"
+        - "Data Transformation : dbt"
+        - "ETL Pipeline : Airbyte"
+        - "Data Orchestration : Airflow"
+        - "Cloud : Azure"
     - title: Data Analytics
       items:
-        - Databases (PostgreSQL, DuckDB, MySQL)
-        - Dashboard (Tableau, Metabase, Streamlit)
-        - Data visualisation (Plotly, Matplotlib, Seaborn)
-        - Process monitoring (Grafana, Prometheus)
-        - Data cleaning (Python, Numpy, Pandas)
-    - title: Data Integration
-      items:
-        - dbt
-        - Airbyte
-        - Snowflake
-        - Airflow
-        - Azure
-    - title: Data Science
-      items:
-        - Python
-        - Scikit-learn
-        - Pytorch
-        - Jupyter
-        - Reinforcement learning
-        - Evolutionary optimisation
-        - Anomaly detection
-    - title: DevOps
-      items:
-        - Git
-        - Docker
-        - Github Actions
-        - Pytest
-    - title: Web Development
-      items:
-        - HTML
-        - CSS
-        - Flask
-        - Wordpress
-        - Jekyll
-    - title: Engineering
-      items:
-        - Finite Element Analysis (Abaqus, Ansys)
-        - Computer-Aided-Design (Solidworks, OnShape)
-        - ROS / ROS2
+        - "Data Cleaning : Numpy • Pandas • Polars"
+        - "Process Monitoring : Grafana • Prometheus"
+        - "Data Visualisation : Tableau • Metabase • Streamlit • Plotly"
     - title: Other
       items:
         - Linux / Bash
@@ -53,12 +43,19 @@
 - title: Work Experience
   type: time_table
   contents:
+    - title: AI Engineer
+      institution: <a href="https://helicon-ia.fr/">Helicon IA, France</a>
+      year: 2026 - Present
+      description:
+        - Building an automated system combining web scraping and AI vision to digitize and process administrative tasks.
+  contents:
     - title: Career Transition
       institution:
-      year: 2021 - Present
+      year: 2021 - 2025
       description:
-        - Comprehensive preparation for a career in data, with focused training in MLOps, data analysis and data science.
-        - Built a portfolio of dashboards, predictive models and data pipelines.
+        - Comprehensive preparation for a career in AI, with focused training in agent orchestration, LLM inference and RAG systems.
+        - Developed a project portfolio showcasing AI agents, ML models deployment and RAG systems.
+        - 20 volunteer work experiences in 8 different countries.
     - title: Marie Curie Research Fellow
       institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
       year: 2017 - 2021
@@ -135,6 +132,11 @@
 - title: Online Courses
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - <a href="https://www.datacamp.com/courses/developing-llm-applications-with-langchain">Developing LLM Applications with LangChain</a>
+        - <a href="https://www.datacamp.com/courses/working-with-the-openai-api">Working with the OpenAI API</a>
+    
     - year: 2025
       items:
         - <a href="https://www.analystbuilder.com/courses/cloud-computing-essentials-with-azure-and-aws">Cloud Computing Essentials with Azure</a>
@@ -164,6 +166,6 @@
 - title: Interests
   type: list
   contents:
-    - <u>Technology:</u> electronics (Arduino, Raspberry Pi), Kaggle competitions, fine-tuning Large Language Model
+    - <u>Technology:</u> electronics (Arduino, Raspberry Pi), Kaggle competitions
     - <u>Outdoors:</u> trekking, slow travel, permaculture, geocaching, volunteering
     - <u>Hobbies:</u> badminton (15 years), guitar (10 years), chess, yoga, meditation

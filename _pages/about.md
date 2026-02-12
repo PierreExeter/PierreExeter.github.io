@@ -33,7 +33,7 @@ AI Engineer transitioning from academia, with proven expertise in developing aut
 
 - **AI Engineering**
 
-  - Agents Orchestration : [LangChain](https://www.langchain.com/) • [LlamaIndex](https://www.llamaindex.ai/)
+  - Agent Orchestration : [LangChain](https://www.langchain.com/) • [LlamaIndex](https://www.llamaindex.ai/)
   - LLM Inference : [HuggingFace](https://huggingface.co/) • [Ollama](https://ollama.com/)
   - Vector Database : [Chroma DB](https://www.trychroma.com/)
   - RAG systems<br />
