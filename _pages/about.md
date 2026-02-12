@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Analyst | Analytics Engineer | Data Scientist
+subtitle: AI Engineer
 
 profile:
   align: right
