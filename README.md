@@ -59,6 +59,22 @@ bundle exec jekyll serve
 
 Pushing to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), which builds the site with `JEKYLL_ENV=production`, strips unused CSS with purgecss, and publishes `_site/` to the `gh-pages` branch.
 
+## Code formatting
+
+Formatting is checked in CI by [`.github/workflows/prettier.yml`](.github/workflows/prettier.yml). To run it locally:
+
+```bash
+npm install
+
+# check formatting (no changes made)
+npx prettier . --check
+
+# auto-fix formatting in place
+npx prettier . --write
+```
+
+Configuration is in `.prettierrc`, which loads `@shopify/prettier-plugin-liquid` for `.liquid` files.
+
 ## Updating content
 
 - **New blog post**: add `_posts/YYYY-MM-DD-title.md`

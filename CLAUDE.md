@@ -22,22 +22,22 @@ This is a customized **fork** of the upstream theme. `README.md`, `INSTALL.md`, 
 
 ## Key Directories
 
-| Directory | Purpose |
-| --- | --- |
-| `_pages/` | Standalone pages (about, blog, cv, publications, portfolio, 404) |
-| `_posts/` | Blog posts (`YYYY-MM-DD-title.md`) |
-| `_projects/` | Projects collection (shown on portfolio page) |
-| `_news/` | News/announcement items (shown on homepage) |
-| `_books/` | Book reviews collection |
-| `_bibliography/` | `papers.bib` — BibTeX source for publications page |
-| `_data/` | YAML data: `cv.yml`, `repositories.yml`, `socials.yml`, `venues.yml`, `coauthors.yml` |
-| `_layouts/` | Page templates (root: `default.liquid`) |
-| `_includes/` | Reusable Liquid partials (subdirs: `cv/`, `repository/`, `resume/`) |
-| `_sass/` | SCSS partials; theming in `_themes.scss` |
-| `_plugins/` | Custom Ruby Jekyll plugins |
-| `assets/` | Images, JS, CSS, PDFs |
-| `.github/workflows/` | CI/CD (deploy, prettier, broken links, lighthouse, a11y) |
-| `_site/` | **Build artifact — never edit** |
+| Directory            | Purpose                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------- |
+| `_pages/`            | Standalone pages (about, blog, cv, publications, portfolio, 404)                      |
+| `_posts/`            | Blog posts (`YYYY-MM-DD-title.md`)                                                    |
+| `_projects/`         | Projects collection (shown on portfolio page)                                         |
+| `_news/`             | News/announcement items (shown on homepage)                                           |
+| `_books/`            | Book reviews collection                                                               |
+| `_bibliography/`     | `papers.bib` — BibTeX source for publications page                                    |
+| `_data/`             | YAML data: `cv.yml`, `repositories.yml`, `socials.yml`, `venues.yml`, `coauthors.yml` |
+| `_layouts/`          | Page templates (root: `default.liquid`)                                               |
+| `_includes/`         | Reusable Liquid partials (subdirs: `cv/`, `repository/`, `resume/`)                   |
+| `_sass/`             | SCSS partials; theming in `_themes.scss`                                              |
+| `_plugins/`          | Custom Ruby Jekyll plugins                                                            |
+| `assets/`            | Images, JS, CSS, PDFs                                                                 |
+| `.github/workflows/` | CI/CD (deploy, prettier, broken links, lighthouse, a11y)                              |
+| `_site/`             | **Build artifact — never edit**                                                       |
 
 ## Essential Commands
 
