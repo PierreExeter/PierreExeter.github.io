@@ -39,7 +39,7 @@ _Eco-lodge promoting organic farming and environment preservation._
 **[Sadhana Yoga Retreat Centre](https://www.sadhanayogaretreat.com/)** (Pokhara, Nepal) | <span style="color:darkgreen;">May 2024</span>  
 _Holistic retreat centre implementing eco-building and bamboo construction practices._
 
-**[Barpathar Tea]()** (Assam, India) | <span style="color:darkgreen;">Mar 2024</span>  
+**[Barpathar Tea Estate]()** (Assam, India) | <span style="color:darkgreen;">Mar 2024</span>  
 _Large tea estate producing high-end organic tea._
 
 **[Karim's farm]()** (Tagounite, Morocco) | <span style="color:darkgreen;">Jan 2023</span>  
