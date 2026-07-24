@@ -1,0 +1,303 @@
+# Timeline entries for the CV page (_includes/cv/timeline.liquid).
+# Entries are sorted by start_date (descending) at render time, so order here doesn't matter.
+#
+# Fields:
+#   category:    work | education | volunteering  (controls the color)
+#   title:       position / role / course name
+#   host:        company, university or host organisation
+#   host_url:    optional link for the host
+#   location:    city, country
+#   start_date:  YYYY-MM (quoted)
+#   end_date:    optional — YYYY-MM (quoted) or "present"; omit for one-off events
+#   description: short sentence about what was done
+
+# ---------------------------------------------------------------------------
+# Work
+# ---------------------------------------------------------------------------
+
+- category: work
+  title: AI Engineer
+  host: Helicon IA
+  host_url: https://helicon-ia.fr/
+  location: France
+  start_date: "2026-01" # TODO: confirm month (cv.yml only had the year)
+  end_date: present
+  description: Building an automated system combining web scraping and AI vision to digitize and process administrative tasks.
+
+- category: work
+  title: Marie Curie Research Fellow
+  host: University College Dublin
+  host_url: http://www.ucd.ie/
+  location: Dublin, Ireland
+  start_date: "2017-01" # TODO: confirm month
+  end_date: "2021-01" # TODO: confirm month
+  description: Awarded a competitive €245,000 grant to develop machine learning solutions for advanced manufacturing, including an anomaly detection system on sensor time-series that cut unplanned downtime by ~15% and a reinforcement learning framework for robotic manipulators.
+
+- category: work
+  title: Postdoctoral Research Fellow
+  host: University College Dublin
+  host_url: http://www.ucd.ie/
+  location: Dublin, Ireland
+  start_date: "2016-01" # TODO: confirm month
+  end_date: "2017-01" # TODO: confirm month
+  description: Optimised composite structures using topology and evolutionary optimisation, achieving a 20% improvement in stiffness-to-weight ratio, validated against experimental data.
+
+- category: work
+  title: PhD Researcher
+  host: University of Exeter
+  host_url: http://www.exeter.ac.uk/
+  location: Exeter, UK
+  start_date: "2012-09" # TODO: confirm month
+  end_date: "2016-09" # TODO: confirm month
+  description: Developed passive vibration damping solutions for lightweight sandwich structures, combining finite element analysis, evolutionary optimisation and experimental modal analysis.
+
+- category: work
+  title: Teaching Assistant
+  host: University of Exeter
+  host_url: http://www.exeter.ac.uk/
+  location: Exeter, UK
+  start_date: "2012-09" # TODO: confirm month
+  end_date: "2015-06" # TODO: confirm month
+  description: "Taught solid mechanics, computational engineering and Computer-Aided Design (CAD)."
+
+- category: work
+  title: Research Assistant
+  host: University of Exeter
+  host_url: http://www.exeter.ac.uk/
+  location: Exeter, UK
+  start_date: "2011-09" # TODO: confirm month
+  end_date: "2012-08" # TODO: confirm month
+  description: Modelled wear using adaptive meshing in finite element analysis, applied to an aerofoil blade friction damper in a Rolls-Royce gas turbine.
+
+- category: work
+  title: Project Management Intern
+  host: Airbus
+  host_url: https://www.airbus.com/
+  location: Toulouse, France
+  start_date: "2011-02" # TODO: confirm month
+  end_date: "2011-08" # TODO: confirm month
+  description: Harmonised the Catia V5 settings configuration for the A350 programme across the main Airbus plants in France, Spain, Germany and the United Kingdom.
+
+# ---------------------------------------------------------------------------
+# Education (degrees + in-person courses)
+# ---------------------------------------------------------------------------
+
+- category: education
+  title: PhD in vibration mechanics and optimisation
+  host: University of Exeter
+  host_url: http://www.exeter.ac.uk/
+  location: Exeter, UK
+  start_date: "2012-09" # TODO: confirm month
+  end_date: "2016-09" # TODO: confirm month
+  description: Evolutionary optimisation, exploratory data analysis, data visualisation and numerical modelling (finite element analysis).
+
+- category: education
+  title: MSc Engineering System Management
+  host: University of Wales
+  host_url: https://www.wales.ac.uk/
+  location: Cardiff, UK
+  start_date: "2012-01" # TODO: confirm month
+  end_date: "2012-12" # TODO: confirm month
+  description: Managing projects and programmes, system modelling, supply chain management and sustainable engineering.
+
+- category: education
+  title: MSc Mechanical Engineering
+  host: École Nationale Supérieure de Mécanique et des Microtechniques (Supmicrotech)
+  host_url: https://www.supmicrotech.fr/
+  location: Besançon, France
+  start_date: "2009-09" # TODO: confirm month
+  end_date: "2012-06" # TODO: confirm month
+  description: Mechanical engineering, computer science, engineering mathematics, electronics and material science.
+
+- category: education
+  title: French 'classes préparatoires' (BSc Engineering)
+  host: Lycée Arago
+  host_url: https://francois-arago.mon-ent-occitanie.fr/l-offre-d-enseignement-superieur/les-cpge-scientifiques/la-prepa-arago/
+  location: Perpignan, France
+  start_date: "2007-09" # TODO: confirm month
+  end_date: "2009-06" # TODO: confirm month
+  description: Intensive undergraduate programme in mathematics, physics and chemistry.
+
+- category: education
+  title: Vipassana Meditation Courses
+  host: Vipassana centres
+  location: Peru, Nepal, Spain, Colombia
+  start_date: "2018-05"
+  end_date: "2025-03"
+  description: "Five 10-day silent meditation retreats: Cusco (Peru, 2018), Lumbini (Nepal, 2024), Santa Maria de Palautordera (Spain, 2024), San Antonio de Pereira and Guarne (Colombia, 2025)."
+
+- category: education
+  title: Introduction to Buddhism Courses
+  host: Buddhist centres
+  location: Kathmandu, Nepal & Dharamshala, India
+  start_date: "2024-05"
+  end_date: "2024-07"
+  description: Residential courses on Buddhist philosophy and meditation in Kathmandu (Nepal) and Dharamshala (India).
+
+- category: education
+  title: 200 hrs Yoga Teacher Training Course
+  host: Yoga school
+  location: Dharamshala, India
+  start_date: "2023-11"
+  description: Intensive month-long training covering asana practice, anatomy, teaching methodology and yogic philosophy.
+
+- category: education
+  title: Permaculture Design Course
+  host: Permaculture institute
+  location: Orgiva, Spain
+  start_date: "2023-02"
+  description: Full 72-hour certified course on permaculture ethics, design principles and regenerative land management.
+
+- category: education
+  title: Introduction to Permaculture
+  host: Finca Altavista
+  location: Arona, Spain
+  start_date: "2022-04"
+  description: Foundation course on permaculture principles and sustainable living.
+
+# ---------------------------------------------------------------------------
+# Volunteering
+# ---------------------------------------------------------------------------
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Varsana
+  host_url: https://varsana.com/
+  location: Granada, Colombia
+  start_date: "2025-05"
+  description: Spiritual community and eco-village sustained by its own extensive organic farm.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Metanoia
+  host_url: https://www.metanoiagardens.com/
+  location: La Calera, Colombia
+  start_date: "2025-04"
+  description: Healing garden project promoting mental and physical well-being through nature.
+
+- category: volunteering
+  title: Education Volunteer
+  host: Language Oasis
+  location: Nuqui, Colombia
+  start_date: "2025-03"
+  description: Language school providing English classes to local and indigenous communities.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Ritmo del Rio
+  host_url: https://www.ritmodelrio.com/
+  location: San Rafael, Colombia
+  start_date: "2025-02"
+  description: Eco-lodge promoting organic farming and environment preservation.
+
+- category: volunteering
+  title: Hospitality Volunteer
+  host: Casa Profunda
+  host_url: https://www.casaprofunda.com/
+  location: Santa Elena, Colombia
+  start_date: "2025-01"
+  description: Eco-conscious hotel combining wellness tourism with sustainable practices.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Sadhana Yoga Retreat Centre
+  host_url: https://www.sadhanayogaretreat.com/
+  location: Pokhara, Nepal
+  start_date: "2024-05"
+  description: Holistic retreat centre implementing eco-building and bamboo construction practices.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Barpathar Tea Estate
+  location: Assam, India
+  start_date: "2024-03"
+  description: Large tea estate producing high-end organic tea.
+
+- category: volunteering
+  title: Education Volunteer
+  host: LMT School
+  location: Dimow, India
+  start_date: "2024-02"
+  description: Family-run initiative providing education to rural local youth in Assam, India.
+
+- category: volunteering
+  title: Humanitarian Volunteer
+  host: Lord Buddha Free School
+  location: Bodhgaya, India
+  start_date: "2024-01"
+  description: Volunteer-run nonprofit school providing free education to underprivileged children. Organized a fundraising campaign that supported the construction of three new classrooms.
+
+- category: volunteering
+  title: Education Volunteer
+  host: Focus Institute of Dynamism
+  location: Hala, Pakistan
+  start_date: "2023-12"
+  description: Innovative educational organization dedicated to empowering students with practical skills and entrepreneurial mindset development.
+
+- category: volunteering
+  title: Hospitality Volunteer
+  host: Moksha Resorts
+  host_url: https://moksharesortshunza.com/
+  location: Gulmit, Pakistan
+  start_date: "2023-11"
+  description: Family-owned hospitality retreat offering authentic cultural experiences.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Karim's farm
+  location: Tagounite, Morocco
+  start_date: "2023-01"
+  description: Desert farming project implementing sand brick construction and irrigation techniques.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Finca Altavista
+  location: Arona, Spain
+  start_date: "2022-11"
+  description: Permaculture project and animal sanctuary dedicated to sustainable soil regeneration and ethical animal care.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Finca El Balayo
+  location: La Orotava, Spain
+  start_date: "2022-10"
+  description: Sustainable agricultural project producing diverse organic goods through regenerative farming practices.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Bratea
+  location: Balsa, Romania
+  start_date: "2022-04"
+  description: Off-grid eco-village that implements permaculture principles and sustainable living.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: Ecotopía
+  host_url: http://www.ecotopia-dr.com/
+  location: Las Terrenas, Dominican Republic
+  start_date: "2022-01"
+  description: Tropical ecological park and sustainable permaculture initiative dedicated to preserving biodiversity.
+
+- category: volunteering
+  title: Environmental Volunteer
+  host: TierraLuz
+  host_url: https://www.tierraluz.es/
+  location: Arbucies, Spain
+  start_date: "2021-11"
+  description: Intentional off-grid community adopting a conscious lifestyle based on cooperation, mutual support and permaculture.
+
+- category: volunteering
+  title: Humanitarian Volunteer
+  host: Fundación Escuela de la Solidaridad
+  host_url: https://www.escuelasolidaridad.org/
+  location: Granada, Spain
+  start_date: "2021-01"
+  description: Nonprofit organization supporting vulnerable individuals including refugees, homeless people, people recovering from addiction, or single mothers.
+
+- category: volunteering
+  title: Hospitality Volunteer
+  host: Sue Ryder Care
+  host_url: https://www.sueryder.org/
+  location: London, UK
+  start_date: "2011-07"
+  description: Charity shop supporting people with complex needs and end-of-life care.

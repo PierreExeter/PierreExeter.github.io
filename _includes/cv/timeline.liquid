@@ -1,0 +1,54 @@
+<div class="cv-timeline">
+  <div class="cv-timeline-legend" role="group" aria-label="Filter timeline by category">
+    <button class="cv-timeline-filter" data-category="work" aria-pressed="true">
+      <span class="cv-timeline-dot cv-timeline-dot-work" aria-hidden="true"></span>
+      Work
+    </button>
+    <button class="cv-timeline-filter" data-category="education" aria-pressed="true">
+      <span class="cv-timeline-dot cv-timeline-dot-education" aria-hidden="true"></span>
+      Education
+    </button>
+    <button class="cv-timeline-filter" data-category="volunteering" aria-pressed="true">
+      <span class="cv-timeline-dot cv-timeline-dot-volunteering" aria-hidden="true"></span>
+      Volunteering
+    </button>
+  </div>
+
+  <ul class="cv-timeline-entries">
+    {% assign entries = site.data.timeline | sort: 'start_date' | reverse %}
+    {% for item in entries %}
+      <li class="cv-timeline-entry" data-category="{{ item.category }}">
+        <span class="cv-timeline-marker cv-timeline-dot-{{ item.category }}" aria-hidden="true"></span>
+        <div class="cv-timeline-card cv-timeline-card-{{ item.category }}">
+          <div class="cv-timeline-header">
+            <span class="cv-timeline-date">
+              {{ item.start_date | append: '-01' | date: '%b %Y' }}
+              {%- if item.end_date == 'present' %}
+                – Present
+              {%- elsif item.end_date %}
+                – {{ item.end_date | append: '-01' | date: '%b %Y' }}
+              {%- endif %}
+            </span>
+            <span class="cv-timeline-category cv-timeline-category-{{ item.category }}">{{ item.category }}</span>
+          </div>
+          <h5 class="cv-timeline-title">{{ item.title }}</h5>
+          <p class="cv-timeline-host">
+            <i class="fa-solid fa-building-columns iconinstitution"></i>
+            {%- if item.host_url -%}
+              <a href="{{ item.host_url }}" target="_blank" rel="noopener noreferrer">{{ item.host }}</a>
+            {%- else -%}
+              {{ item.host }}
+            {%- endif %}
+            <span class="cv-timeline-location">
+              <i class="fa-solid fa-location-dot iconlocation"></i>
+              {{ item.location }}
+            </span>
+          </p>
+          {% if item.description %}
+            <p class="cv-timeline-description">{{ item.description }}</p>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
