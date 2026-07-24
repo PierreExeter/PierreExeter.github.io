@@ -3,7 +3,7 @@ layout: post
 title: AI-Powered Email and Calendar Assistant
 date: 2026-01-30 21:01:00
 description: Built an AI-powered email and calendar assistant that manages Gmail inbox and Google Calendar. Built with Streamlit, LangChain, and HuggingFace LLMs.
-tags: AI LLM LangChain Streamlit SQLite HuggingFace
+tags: AI LLM LangChain streamlit SQLite HuggingFace
 categories:
 thumbnail: assets/img/portfolio/gmail-agent/demo-gmail-agent.gif
 featured: false

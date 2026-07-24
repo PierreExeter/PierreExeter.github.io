@@ -197,7 +197,6 @@ plugins:
   - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-get-json
   - jekyll-imagemagick
   - jekyll-jupyter-notebook
   - jekyll-link-attributes
@@ -221,6 +220,8 @@ defaults:
 
 sass:
   style: compressed
+  quiet_deps: true
+  silence_deprecations: [import, global-builtin]
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
