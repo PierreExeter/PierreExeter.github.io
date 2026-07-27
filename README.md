@@ -12,6 +12,7 @@ Built with [Jekyll](https://jekyllrb.com/) on a customized fork of the [al-folio
 - **Portfolio** — project showcase (`_projects/`, `_pages/portfolio.md`)
 - **Publications** — generated from BibTeX via jekyll-scholar (`_bibliography/papers.bib`)
 - **CV** — data-driven from `_data/cv.yml`
+- **Timeline** — chronological work/education/volunteering view, data-driven from `_data/timeline.yml` (`_pages/timeline.md`)
 - **News** — short announcements shown on the homepage (`_news/`)
 - Custom pages: code (`_pages/code.md`), DataSparked (`_pages/datasparked.md`), outdoors (`_pages/outdoors.md`)
 
@@ -24,21 +25,21 @@ Built with [Jekyll](https://jekyllrb.com/) on a customized fork of the [al-folio
 
 ## Repository structure
 
-| Directory        | Purpose                                                          |
-| ---------------- | ---------------------------------------------------------------- |
-| `_pages/`        | Standalone pages (about, blog, cv, publications, portfolio, 404) |
-| `_posts/`        | Blog posts (`YYYY-MM-DD-title.md`)                               |
-| `_projects/`     | Projects collection (portfolio page)                             |
-| `_news/`         | News items (homepage)                                            |
-| `_books/`        | Book reviews collection                                          |
-| `_bibliography/` | `papers.bib` — BibTeX source for publications                    |
-| `_data/`         | YAML data: `cv.yml`, `repositories.yml`, `socials.yml`, …        |
-| `_layouts/`      | Liquid page templates                                            |
-| `_includes/`     | Reusable Liquid partials                                         |
-| `_sass/`         | SCSS partials (light/dark theming in `_themes.scss`)             |
-| `_plugins/`      | Custom Ruby Jekyll plugins                                       |
-| `assets/`        | Images, JS, CSS, PDFs                                            |
-| `_site/`         | Generated output — do not edit                                   |
+| Directory        | Purpose                                                                    |
+| ---------------- | -------------------------------------------------------------------------- |
+| `_pages/`        | Standalone pages (about, blog, cv, timeline, publications, portfolio, 404) |
+| `_posts/`        | Blog posts (`YYYY-MM-DD-title.md`)                                         |
+| `_projects/`     | Projects collection (portfolio page)                                       |
+| `_news/`         | News items (homepage)                                                      |
+| `_books/`        | Book reviews collection                                                    |
+| `_bibliography/` | `papers.bib` — BibTeX source for publications                              |
+| `_data/`         | YAML data: `cv.yml`, `timeline.yml`, `repositories.yml`, `socials.yml`, …  |
+| `_layouts/`      | Liquid page templates                                                      |
+| `_includes/`     | Reusable Liquid partials                                                   |
+| `_sass/`         | SCSS partials (light/dark theming in `_themes.scss`)                       |
+| `_plugins/`      | Custom Ruby Jekyll plugins                                                 |
+| `assets/`        | Images, JS, CSS, PDFs                                                      |
+| `_site/`         | Generated output — do not edit                                             |
 
 ## Run locally
 
@@ -81,6 +82,7 @@ Configuration is in `.prettierrc`, which loads `@shopify/prettier-plugin-liquid`
 - **New project**: add a file to `_projects/` (`importance` sets the order)
 - **New publication**: append a BibTeX entry to `_bibliography/papers.bib`
 - **CV**: edit `_data/cv.yml`
+- **Timeline**: add an entry to `_data/timeline.yml` (fields documented at the top of the file)
 - **Site settings and feature toggles**: `_config.yml`
 
 ## Credits & license
