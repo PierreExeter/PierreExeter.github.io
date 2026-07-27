@@ -2,7 +2,7 @@
 layout: page
 title: timeline
 permalink: /timeline/
-description: A chronological view of my work, education and volunteering experiences. Use the filters to focus on a single category.
+description: A chronological view of my work, education and volunteering experiences.
 nav: true
 nav_order: 6
 ---
