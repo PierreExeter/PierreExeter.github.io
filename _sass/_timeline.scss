@@ -60,7 +60,8 @@ span.timeline-dot {
 ul.timeline-entries {
   list-style: none;
   margin: 1rem 0 0 0;
-  padding: 0;
+  /* Right-hand headroom so the enlarged centre card stays inside the container. */
+  padding: 0 10% 0 0;
   position: relative;
 }
 
@@ -124,6 +125,8 @@ span.timeline-entry-date {
   left: 0;
   top: 1.05rem;
   width: calc(var(--timeline-spine-x) - 0.9rem);
+  transform: scale(calc(0.94 + 0.16 * var(--tl-progress, 1)));
+  transform-origin: right center;
   text-align: right;
   font-size: 0.72rem;
   font-weight: 700;
@@ -138,7 +141,7 @@ span.timeline-entry-date {
   border-radius: 0.25rem;
   padding: 0.75rem 1rem;
   background-color: var(--global-card-bg-color);
-  transform: scale(calc(0.96 + 0.07 * var(--tl-progress, 1)));
+  transform: scale(calc(0.94 + 0.16 * var(--tl-progress, 1)));
   transform-origin: left center;
   will-change: transform;
   box-shadow: 0 3px 14px rgba(0, 0, 0, calc(0.16 * var(--tl-progress, 1)));
@@ -167,14 +170,14 @@ span.timeline-entry-date {
 }
 
 span.timeline-date {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--global-text-color-light);
 }
 
 span.timeline-entry-location {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   color: var(--global-text-color-light);
 }
 
@@ -199,6 +202,10 @@ p.timeline-description {
     --timeline-spine-x: 3.2rem;
   }
 
+  ul.timeline-entries {
+    padding-right: 5%;
+  }
+
   li.timeline-entry {
     padding-left: calc(var(--timeline-spine-x) + 1rem);
   }
@@ -206,11 +213,12 @@ p.timeline-description {
   span.timeline-entry-date {
     width: calc(var(--timeline-spine-x) - 0.7rem);
     font-size: 0.62rem;
+    transform: scale(calc(0.96 + 0.09 * var(--tl-progress, 1)));
   }
 
   .timeline-card {
     padding: 0.6rem 0.75rem;
-    /* Smaller scale amplitude so the card's right edge stays on screen. */
-    transform: scale(calc(0.98 + 0.03 * var(--tl-progress, 1)));
+    /* Smaller scale amplitude so the card text keeps enough room on a phone. */
+    transform: scale(calc(0.96 + 0.09 * var(--tl-progress, 1)));
   }
 }
