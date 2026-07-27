@@ -19,18 +19,25 @@
   title: AI Engineer
   host: Helicon IA
   host_url: https://helicon-ia.fr/
-  location: France
-  start_date: "2026-01" # TODO: confirm month (cv.yml only had the year)
+  location: Narbonne, France
+  start_date: "2026-04"
   end_date: present
   description: Building an automated system combining web scraping and AI vision to digitize and process administrative tasks.
+
+- category: work
+  title: Career Transition
+  location: France
+  start_date: "2025-08"
+  end_date: "2026-04"
+  description: Comprehensive preparation for a career in AI, with focused training in AI agent orchestration, LLM inference, ML models deployment and RAG systems.
 
 - category: work
   title: Marie Curie Research Fellow
   host: University College Dublin
   host_url: http://www.ucd.ie/
   location: Dublin, Ireland
-  start_date: "2017-01" # TODO: confirm month
-  end_date: "2021-01" # TODO: confirm month
+  start_date: "2018-06" # TODO: confirm month
+  end_date: "2021-11" # TODO: confirm month
   description: Awarded a competitive €245,000 grant to develop machine learning solutions for advanced manufacturing, including an anomaly detection system on sensor time-series that cut unplanned downtime by ~15% and a reinforcement learning framework for robotic manipulators.
 
 - category: work
@@ -38,18 +45,18 @@
   host: University College Dublin
   host_url: http://www.ucd.ie/
   location: Dublin, Ireland
-  start_date: "2016-01" # TODO: confirm month
-  end_date: "2017-01" # TODO: confirm month
+  start_date: "2017-01" # TODO: confirm month
+  end_date: "2018-01" # TODO: confirm month
   description: Optimised composite structures using topology and evolutionary optimisation, achieving a 20% improvement in stiffness-to-weight ratio, validated against experimental data.
 
 - category: work
-  title: PhD Researcher
-  host: University of Exeter
-  host_url: http://www.exeter.ac.uk/
-  location: Exeter, UK
-  start_date: "2012-09" # TODO: confirm month
-  end_date: "2016-09" # TODO: confirm month
-  description: Developed passive vibration damping solutions for lightweight sandwich structures, combining finite element analysis, evolutionary optimisation and experimental modal analysis.
+  title: Kitchen Hand
+  host: Caffissimo Mount Lawley
+  host_url: https://www.facebook.com/CaffissimoMtLawley/
+  location: Perth, Australia
+  start_date: "2016-01" # TODO: confirm month
+  end_date: "2016-04" # TODO: confirm month
+  description: Worked in a fast-paced kitchen environment, preparing food and dishwashing.
 
 - category: work
   title: Teaching Assistant
@@ -83,13 +90,14 @@
 # ---------------------------------------------------------------------------
 
 - category: education
-  title: PhD in vibration mechanics and optimisation
+  title: PhD in vibration mechanics and evolutionary optimisation
   host: University of Exeter
   host_url: http://www.exeter.ac.uk/
   location: Exeter, UK
   start_date: "2012-09" # TODO: confirm month
   end_date: "2016-09" # TODO: confirm month
-  description: Evolutionary optimisation, exploratory data analysis, data visualisation and numerical modelling (finite element analysis).
+  description: Developed passive vibration damping solutions for lightweight sandwich structures, combining finite element analysis, evolutionary optimisation and experimental modal analysis.
+
 
 - category: education
   title: MSc Engineering System Management
@@ -110,7 +118,7 @@
   description: Mechanical engineering, computer science, engineering mathematics, electronics and material science.
 
 - category: education
-  title: French 'classes préparatoires' (BSc Engineering)
+  title: BSc Engineering (French 'classes préparatoires')
   host: Lycée Arago
   host_url: https://francois-arago.mon-ent-occitanie.fr/l-offre-d-enseignement-superieur/les-cpge-scientifiques/la-prepa-arago/
   location: Perpignan, France
@@ -121,6 +129,7 @@
 - category: education
   title: Vipassana Meditation Courses
   host: Vipassana centres
+  host_url: https://www.dhamma.org/
   location: Peru, Nepal, Spain, Colombia
   start_date: "2018-05"
   end_date: "2025-03"
@@ -128,7 +137,8 @@
 
 - category: education
   title: Introduction to Buddhism Courses
-  host: Buddhist centres
+  host: Kopan Monastery and Tushita Meditation Centre
+  host_url: https://kopanmonastery.com/
   location: Kathmandu, Nepal & Dharamshala, India
   start_date: "2024-05"
   end_date: "2024-07"
@@ -136,14 +146,17 @@
 
 - category: education
   title: 200 hrs Yoga Teacher Training Course
-  host: Yoga school
+  host: SoShanti Yoga school
+  host_url: https://soshantiyoga.com/
   location: Dharamshala, India
-  start_date: "2023-11"
+  start_date: "2023-10"
+  end_date: "2023-11"
   description: Intensive month-long training covering asana practice, anatomy, teaching methodology and yogic philosophy.
 
 - category: education
   title: Permaculture Design Course
-  host: Permaculture institute
+  host: Supernatural Permaculture
+  host_url: https://supernatural-permaculture.com/
   location: Orgiva, Spain
   start_date: "2023-02"
   description: Full 72-hour certified course on permaculture ethics, design principles and regenerative land management.
@@ -158,6 +171,14 @@
 # ---------------------------------------------------------------------------
 # Volunteering
 # ---------------------------------------------------------------------------
+
+- category: volunteering
+  title: Hospitality Volunteer
+  host: Nøsen Yoga
+  host_url: https://www.nosenyoga.no/
+  location: Fagernes, Norway
+  start_date: "2026-05"
+  description: Hospitality and kitchen volunteer at a yoga retreat centre, supporting daily operations and guest services.
 
 - category: volunteering
   title: Environmental Volunteer
@@ -209,6 +230,7 @@
 - category: volunteering
   title: Environmental Volunteer
   host: Barpathar Tea Estate
+  host_url: https://www.facebook.com/gardenfreshassamtea/
   location: Assam, India
   start_date: "2024-03"
   description: Large tea estate producing high-end organic tea.
@@ -216,6 +238,7 @@
 - category: volunteering
   title: Education Volunteer
   host: LMT School
+  host_url: https://www.facebook.com/lmtschool/
   location: Dimow, India
   start_date: "2024-02"
   description: Family-run initiative providing education to rural local youth in Assam, India.
@@ -230,6 +253,7 @@
 - category: volunteering
   title: Education Volunteer
   host: Focus Institute of Dynamism
+  host_url: https://www.instagram.com/focustrainers/
   location: Hala, Pakistan
   start_date: "2023-12"
   description: Innovative educational organization dedicated to empowering students with practical skills and entrepreneurial mindset development.
@@ -252,6 +276,7 @@
 - category: volunteering
   title: Environmental Volunteer
   host: Finca Altavista
+  host_url: https://altavistatenerife.com/
   location: Arona, Spain
   start_date: "2022-11"
   description: Permaculture project and animal sanctuary dedicated to sustainable soil regeneration and ethical animal care.
