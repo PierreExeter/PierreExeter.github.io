@@ -1,12 +1,12 @@
-// Interactive CV timeline: highlights the entry nearest the viewport center
+// Interactive timeline (_pages/timeline.md): highlights the entry nearest the viewport center
 // and lets the legend chips filter entries by category.
 document.addEventListener("DOMContentLoaded", function () {
-  const timeline = document.querySelector(".cv-timeline");
+  const timeline = document.querySelector(".timeline");
   if (!timeline) {
     return;
   }
 
-  const entries = Array.from(timeline.querySelectorAll(".cv-timeline-entry"));
+  const entries = Array.from(timeline.querySelectorAll(".timeline-entry"));
 
   // Entries currently intersecting the middle band of the viewport.
   const inBand = new Set();
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   entries.forEach((entry) => observer.observe(entry));
 
-  timeline.querySelectorAll(".cv-timeline-filter").forEach((button) => {
+  timeline.querySelectorAll(".timeline-filter").forEach((button) => {
     button.addEventListener("click", () => {
       const wasPressed = button.getAttribute("aria-pressed") === "true";
       button.setAttribute("aria-pressed", String(!wasPressed));

@@ -1,5 +1,3 @@
-# Work Experience and Education moved to the interactive timeline (_data/timeline.yml)
-
 - title: Skills
   type: nested_list
   contents:
@@ -41,6 +39,94 @@
         - Markdown
         - Latex
         - Agile project management (Jira)
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: AI Engineer
+      institution: <a href="https://helicon-ia.fr/">Helicon IA, France</a>
+      year: 2026 - Present
+      description:
+        - Built an automated system combining web scraping and AI vision to digitize and process administrative tasks.
+    - title: Career Transition
+      institution:
+      year: 2021 - 2025
+      description:
+        - Comprehensive preparation for a career in AI, with focused training in agent orchestration, LLM inference and RAG systems.
+        - Developed a project portfolio showcasing AI agents, ML models deployment and RAG systems.
+        - 20 volunteer work experiences in 8 different countries.
+    - title: Marie Curie Research Fellow
+      institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
+      year: 2017 - 2021
+      description:
+        - Awarded a competitive €245,000 grant to develop machine learning solutions for advanced manufacturing optimisation.
+        - Designed and implemented an anomaly detection system using ML models on sensor time-series data, resulting in a ~15% reduction in unplanned downtime.
+        - Developed a reinforcement learning framework to train robotic manipulators on precision reaching tasks.
+    - title: Postdoctoral Research Fellow
+      institution: <a href="http://www.ucd.ie/">University College Dublin, Ireland</a>
+      year: 2016 - 2017
+      description:
+        - Optimised composite structures via computational methods
+        - Applied topology and evolutionary optimisation to define optimal material layouts, achieving a 20% improvement in stiffness-to-weight ratio.
+        - Developed high-fidelity numerical models (FEA) to predict complex mechanical behavior, validating against experimental data.
+        - Employed machine learning on simulation models to identify optimal material parameters.
+    - title: PhD Researcher
+      institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
+      year: 2012 - 2016
+      description:
+        - Developed passive vibration damping solutions for lightweight sandwich structures
+        - Performed modal analysis on aircraft structures using finite element analysis (Ansys).
+        - Implemented evolutionary optimization algorithms in Matlab to identify optimal damping configurations.
+        - Validated models experimentally using accelerometers, laser vibrometers and spectrum analysers.
+    - title: Teaching Assistant
+      institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
+      year: 2012 - 2015
+      description:
+        - "Modules taught : solid mechanics, computational engineering, Computer-Aided Design (CAD)"
+    - title: Research Assistant
+      institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
+      year: 2011 - 2012
+      description: Modelling of wear using adaptive meshing in finite element analysis applied to aerofoil blade friction damper in a Rolls-Royce gas turbine.
+    - title: Project Management Intern
+      institution: <a href="https://www.airbus.com/">Airbus, France</a>
+      year: 2011
+      description: Harmonisation of CatiaV5 settings configuration for A350 programme across all the main Airbus plants (France, Spain, Germany, United Kingdom).
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in vibration mechanics and optimisation
+      institution: <a href="http://www.exeter.ac.uk/">University of Exeter, UK</a>
+      year: 2012 - 2016
+      description:
+        - evolutionary optimisation
+        - exploratory data analysis
+        - data visualisation
+        - numerical modelling (finite element analysis)
+    - title: MSc Mechanical Engineering
+      institution: <a href="https://www.supmicrotech.fr/">École Nationale Supérieure de Mécanique et des Microtechniques (Supmicrotech), France</a>
+      year: 2009 - 2012
+      description:
+        - mechanical engineering
+        - computer science
+        - engineering mathematics
+        - electronics
+        - material science
+    - title: MSc Engineering System Management
+      institution: <a href="https://www.wales.ac.uk/">University of Wales, UK</a>
+      year: 2012 - 2012
+      description:
+        - managing projects and programmes
+        - system modelling
+        - supply chain management
+        - sustainable engineering
+    - title: French 'classes préparatoires' (BSc Engineering)
+      institution: <a href="https://francois-arago.mon-ent-occitanie.fr/l-offre-d-enseignement-superieur/les-cpge-scientifiques/la-prepa-arago/">Lycée Arago, France</a>
+      year: 2007 - 2009
+      description:
+        - mathematics
+        - physics
+        - chemistry
 
 - title: Online Courses
   type: time_table

@@ -1,0 +1,267 @@
+/*****************************
+ * INTERACTIVE TIMELINE styles
+ *****************************/
+
+.timeline {
+  --timeline-color-work: #1c7ed6;
+  --timeline-color-education: #d9a400;
+  --timeline-color-volunteering: #2f9e44;
+  --timeline-spine-color: var(--global-divider-color);
+
+  position: relative;
+}
+
+html[data-theme="dark"] .timeline {
+  --timeline-color-work: #74b6f0;
+  --timeline-color-education: #f2c14e;
+  --timeline-color-volunteering: #8ce99a;
+}
+
+/* Legend / filter chips */
+
+.timeline-legend {
+  position: sticky;
+  top: 57px; /* navbar height */
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  background-color: var(--global-card-bg-color);
+}
+
+button.timeline-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 2rem;
+  background-color: transparent;
+  color: var(--global-text-color);
+  font-size: 0.8rem;
+  padding: 0.25rem 0.9rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+button.timeline-filter[aria-pressed="false"] {
+  opacity: 0.35;
+}
+
+button.timeline-filter[aria-pressed="false"] .timeline-dot {
+  background-color: var(--global-text-color-light);
+}
+
+span.timeline-dot {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.timeline-dot-work {
+  background-color: var(--timeline-color-work);
+}
+
+.timeline-dot-education {
+  background-color: var(--timeline-color-education);
+}
+
+.timeline-dot-volunteering {
+  background-color: var(--timeline-color-volunteering);
+}
+
+/* Entries and spine */
+
+ul.timeline-entries {
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+  position: relative;
+}
+
+ul.timeline-entries::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0.5rem;
+  width: 2px;
+  background-color: var(--timeline-spine-color);
+}
+
+li.timeline-entry {
+  position: relative;
+  padding: 0 0 1.25rem 2.2rem;
+  opacity: 0.55;
+}
+
+li.timeline-entry.timeline-hidden {
+  display: none;
+}
+
+span.timeline-marker {
+  position: absolute;
+  left: calc(0.5rem + 1px);
+  top: 1.1rem;
+  transform: translateX(-50%);
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  border: 2px solid var(--global-card-bg-color);
+  z-index: 1;
+}
+
+.timeline-card {
+  border: 1px solid var(--global-divider-color);
+  border-left: 4px solid var(--global-divider-color);
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+  background-color: var(--global-card-bg-color);
+}
+
+.timeline-card-work {
+  border-left-color: var(--timeline-color-work);
+}
+
+.timeline-card-education {
+  border-left-color: var(--timeline-color-education);
+}
+
+.timeline-card-volunteering {
+  border-left-color: var(--timeline-color-volunteering);
+}
+
+/* Active state (nearest viewport center, toggled by timeline.js) */
+
+li.timeline-entry.active {
+  opacity: 1;
+}
+
+li.timeline-entry.active .timeline-card {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+}
+
+li.timeline-entry.active span.timeline-marker {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  li.timeline-entry {
+    transition: opacity 0.3s ease;
+  }
+
+  li.timeline-entry .timeline-card {
+    transition:
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
+  }
+
+  li.timeline-entry.active .timeline-card {
+    transform: translateX(0.25rem);
+  }
+
+  span.timeline-marker {
+    transition:
+      width 0.3s ease,
+      height 0.3s ease;
+  }
+}
+
+/* Card content */
+
+.timeline-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+span.timeline-date {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+span.timeline-category {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 0.125rem;
+  padding: 0.1rem 0.4rem;
+  color: var(--global-card-bg-color);
+}
+
+.timeline-category-work {
+  background-color: var(--timeline-color-work);
+}
+
+.timeline-category-education {
+  background-color: var(--timeline-color-education);
+}
+
+.timeline-category-volunteering {
+  background-color: var(--timeline-color-volunteering);
+}
+
+h5.timeline-title {
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 0.4rem 0 0.2rem 0;
+}
+
+p.timeline-host {
+  font-size: 0.85rem;
+  margin-bottom: 0.3rem;
+}
+
+span.timeline-location {
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+  margin-left: 0.6rem;
+  white-space: nowrap;
+}
+
+p.timeline-description {
+  font-size: 0.85rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+  li.timeline-entry {
+    padding-left: 1.6rem;
+  }
+
+  .timeline-card {
+    padding: 0.6rem 0.75rem;
+  }
+}
+
+/*ul.timeline::before {
+     content: "●";
+     font-size: 1em;
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: -2px;
+     top: 0.4rem;
+     color: var(--global-text-color);
+}
+ ul.timeline::after {
+     content: "●";
+     font-size: 1em;
+     display: inline-block;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: -2px;
+     top: -1rem;
+     color: var(--global-text-color);
+}
+*/

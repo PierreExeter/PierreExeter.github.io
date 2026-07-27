@@ -1,4 +1,4 @@
-# Timeline entries for the CV page (_includes/cv/timeline.liquid).
+# Timeline entries for the timeline page (_pages/timeline.md, _includes/timeline.liquid).
 # Entries are sorted by start_date (descending) at render time, so order here doesn't matter.
 #
 # Fields:

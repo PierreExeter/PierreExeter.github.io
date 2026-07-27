@@ -1,0 +1,54 @@
+<div class="timeline">
+  <div class="timeline-legend" role="group" aria-label="Filter timeline by category">
+    <button class="timeline-filter" data-category="work" aria-pressed="true">
+      <span class="timeline-dot timeline-dot-work" aria-hidden="true"></span>
+      Work
+    </button>
+    <button class="timeline-filter" data-category="education" aria-pressed="true">
+      <span class="timeline-dot timeline-dot-education" aria-hidden="true"></span>
+      Education
+    </button>
+    <button class="timeline-filter" data-category="volunteering" aria-pressed="true">
+      <span class="timeline-dot timeline-dot-volunteering" aria-hidden="true"></span>
+      Volunteering
+    </button>
+  </div>
+
+  <ul class="timeline-entries">
+    {% assign entries = site.data.timeline | sort: 'start_date' | reverse %}
+    {% for item in entries %}
+      <li class="timeline-entry" data-category="{{ item.category }}">
+        <span class="timeline-marker timeline-dot-{{ item.category }}" aria-hidden="true"></span>
+        <div class="timeline-card timeline-card-{{ item.category }}">
+          <div class="timeline-header">
+            <span class="timeline-date">
+              {{ item.start_date | append: '-01' | date: '%b %Y' }}
+              {%- if item.end_date == 'present' %}
+                – Present
+              {%- elsif item.end_date %}
+                – {{ item.end_date | append: '-01' | date: '%b %Y' }}
+              {%- endif %}
+            </span>
+            <span class="timeline-category timeline-category-{{ item.category }}">{{ item.category }}</span>
+          </div>
+          <h5 class="timeline-title">{{ item.title }}</h5>
+          <p class="timeline-host">
+            <i class="fa-solid fa-building-columns iconinstitution"></i>
+            {%- if item.host_url -%}
+              <a href="{{ item.host_url }}" target="_blank" rel="noopener noreferrer">{{ item.host }}</a>
+            {%- else -%}
+              {{ item.host }}
+            {%- endif %}
+            <span class="timeline-location">
+              <i class="fa-solid fa-location-dot iconlocation"></i>
+              {{ item.location }}
+            </span>
+          </p>
+          {% if item.description %}
+            <p class="timeline-description">{{ item.description }}</p>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
