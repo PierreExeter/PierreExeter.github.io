@@ -44,6 +44,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/outdoors/";
           },
+        },{id: "nav-timeline",
+          title: "timeline",
+          description: "A chronological view of my work, education and volunteering experiences.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/timeline/";
+          },
         },{id: "post-rag-powered-textbook-assistant",
         
           title: "RAG-Powered Textbook Assistant",
