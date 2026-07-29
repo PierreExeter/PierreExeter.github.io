@@ -36,6 +36,15 @@ $timeline-spine-x-sm: 3.2rem;
   --timeline-color-volunteering: #2f9e44;
   --timeline-spine-color: var(--global-divider-color);
 
+  /* Location pill: tinted background + darkened text. The raw category colours above
+     fail contrast on a light tint at this size, hence the separate text variants. */
+  --timeline-tint-work: rgba(28, 126, 214, 0.12);
+  --timeline-tint-education: rgba(217, 164, 0, 0.16);
+  --timeline-tint-volunteering: rgba(47, 158, 68, 0.13);
+  --timeline-text-work: #1565c0;
+  --timeline-text-education: #8a6100;
+  --timeline-text-volunteering: #1b6b32;
+
   position: relative;
 }
 
@@ -43,6 +52,13 @@ html[data-theme="dark"] .timeline {
   --timeline-color-work: #74b6f0;
   --timeline-color-education: #f2c14e;
   --timeline-color-volunteering: #8ce99a;
+
+  --timeline-tint-work: rgba(28, 126, 214, 0.28);
+  --timeline-tint-education: rgba(217, 164, 0, 0.22);
+  --timeline-tint-volunteering: rgba(47, 158, 68, 0.24);
+  --timeline-text-work: #74b6f0;
+  --timeline-text-education: #f2c14e;
+  --timeline-text-volunteering: #8ce99a;
 }
 
 /* Legend (non-interactive) */
@@ -204,8 +220,40 @@ span.timeline-date {
 }
 
 span.timeline-entry-location {
-  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.4;
+  padding: 0.1rem 0.55rem;
+  border-radius: 2rem;
   color: var(--global-text-color-light);
+  background-color: var(--global-divider-color);
+}
+
+/* The pin icon is globally themed in _cv.scss; scope the override to the timeline
+   so the CV and resume pages keep the site accent colour. */
+.timeline-entry-location i.iconlocation {
+  color: inherit;
+  font-size: 0.75rem;
+}
+
+/* Element-qualified to match the specificity of span.timeline-entry-location above,
+   which would otherwise keep its neutral fallback colours. */
+span.timeline-location-work {
+  color: var(--timeline-text-work);
+  background-color: var(--timeline-tint-work);
+}
+
+span.timeline-location-education {
+  color: var(--timeline-text-education);
+  background-color: var(--timeline-tint-education);
+}
+
+span.timeline-location-volunteering {
+  color: var(--timeline-text-volunteering);
+  background-color: var(--timeline-tint-volunteering);
 }
 
 h5.timeline-title {

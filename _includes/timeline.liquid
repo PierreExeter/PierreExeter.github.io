@@ -38,7 +38,7 @@
                 – {{ item.end_date | append: '-01' | date: '%b %Y' }}
               {%- endif %}
             </span>
-            <span class="timeline-entry-location">
+            <span class="timeline-entry-location timeline-location-{{ item.category }}">
               <i class="fa-solid fa-location-dot iconlocation"></i>
               {{ item.location }}
             </span>
